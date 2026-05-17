@@ -12,4 +12,7 @@
 5. Eq
 6. PartialOrd
 7. Ord
-8. Default
+8. Hash
+9. Default
+10. Serialize
+11. Deserialize
