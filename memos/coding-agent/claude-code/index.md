@@ -6,7 +6,10 @@
 
 ## TODO
 
+- CLAUDE.md
 - skills
 - sub-agents
+- /loop
+- /goal
 
 ## prompt

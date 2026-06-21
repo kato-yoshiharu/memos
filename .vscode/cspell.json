@@ -2,6 +2,7 @@
   "version": "0.2",
   "language": "en",
   "words": [
+    "automations",
     "automigrate",
     "clippy",
     "codelldb",
@@ -38,5 +39,6 @@
     "vitepress",
     "webextension",
     "worktree",
+    "worktrees",
   ]
 }
