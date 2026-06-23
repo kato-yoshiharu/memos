@@ -4,6 +4,11 @@
 
 プロンプトエンジニアリングをやめ、**AIがプロンプトを打つシステム自体を設計する**というループエンジニアリングを行う。
 
+- Prompt Engineering
+- Context Engineering
+- Harness Engineering
+- Loop Engineering
+
 ## 6つのコアモジュール
 
 ### Automations

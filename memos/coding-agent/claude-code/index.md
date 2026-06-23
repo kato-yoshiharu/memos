@@ -11,5 +11,3 @@
 - sub-agents
 - /loop
 - /goal
-
-## prompt
