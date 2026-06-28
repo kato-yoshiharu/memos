@@ -1,6 +1,6 @@
 # Skills
 
-## 調べ先
+## Skillsを見つける
 
 - <https://skillsmp.com/ja>
 - <https://www.skills.sh/>
