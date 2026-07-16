@@ -6,7 +6,8 @@
 
 ## TODO
 
-- CLAUDE.md
+- rules
+  - CLAUDE.md
 - skills
 - sub-agents
 - /loop
