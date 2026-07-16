@@ -3,6 +3,7 @@
 [manual page](https://man7.org/linux/man-pages/man1/tmux.1.html)
 
 global options
+
 | option    | description       |
 | --------- | ----------------- |
 | -t        | target            |
