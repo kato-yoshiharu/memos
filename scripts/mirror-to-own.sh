@@ -31,3 +31,7 @@ require_git_repo() {
   fi
 }
 
+remote_exists() {
+  git remote | grep -qx "$1"
+}
+
