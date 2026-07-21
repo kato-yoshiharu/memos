@@ -42,3 +42,5 @@ current_branch() {
 # ---- init: リモートの付け替え & 初回 push ---------------------------------
 
 cmd_init() {
+  local repo_dir="."
+
