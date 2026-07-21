@@ -35,3 +35,7 @@ remote_exists() {
   git remote | grep -qx "$1"
 }
 
+current_branch() {
+  git symbolic-ref --quiet --short HEAD 2>/dev/null || git rev-parse --short HEAD
+}
+
