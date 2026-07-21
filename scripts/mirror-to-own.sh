@@ -21,6 +21,7 @@ readonly OWN_GITHUB_BASE="https://github.com/kato-yoshiharu"
 # ---- 共通ユーティリティ ---------------------------------------------------
 
 err()  { printf '\033[31mError:\033[0m %s\n' "$*" >&2; }
+info() { printf '\033[36m==>\033[0m %s\n' "$*"; }
 warn() { printf '\033[33mWarn:\033[0m %s\n' "$*" >&2; }
 
 require_git_repo() {
