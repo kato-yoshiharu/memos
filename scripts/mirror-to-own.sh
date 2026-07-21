@@ -39,3 +39,5 @@ current_branch() {
   git symbolic-ref --quiet --short HEAD 2>/dev/null || git rev-parse --short HEAD
 }
 
+# ---- init: リモートの付け替え & 初回 push ---------------------------------
+
