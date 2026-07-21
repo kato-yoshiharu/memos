@@ -11,5 +11,4 @@
 #
 # 使い方:
 #   1) 初回セットアップ (リモートの付け替え & 初回 push)
-#        ./scripts/mirror-to-own.sh init --repo <ローカルリポジトリのパス> <自分のリポジトリURL>
-#
+#        ./scripts/mirror-to-own.sh init --repo <ローカルリポジトリのパス>
