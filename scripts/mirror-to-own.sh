@@ -20,5 +20,6 @@ readonly OWN_GITHUB_BASE="https://github.com/kato-yoshiharu"
 
 # ---- 共通ユーティリティ ---------------------------------------------------
 
+err()  { printf '\033[31mError:\033[0m %s\n' "$*" >&2; }
 require_git_repo() {
   if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
