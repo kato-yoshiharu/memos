@@ -15,3 +15,6 @@
 
 set -euo pipefail
 
+# 自分の GitHub アカウントのベース URL
+readonly OWN_GITHUB_BASE="https://github.com/kato-yoshiharu"
+
