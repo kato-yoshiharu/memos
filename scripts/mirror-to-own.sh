@@ -26,6 +26,7 @@ warn() { printf '\033[33mWarn:\033[0m %s\n' "$*" >&2; }
 
 require_git_repo() {
   if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    err "git リポジトリの中で実行してください。"
     exit 1
   fi
 }
