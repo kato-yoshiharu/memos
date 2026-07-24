@@ -4,8 +4,6 @@
 
 ### user
 
-1人に1つ作成する。
-
 ### user group
 
 ### role
