@@ -11,8 +11,7 @@
 # 元リポジトリへは決して push されない。
 #
 # 使い方:
-#   1) 初回セットアップ (リモートの付け替え & 初回 push)
-#        ./scripts/mirror-to-own.sh init --repo <ローカルリポジトリのパス>
+#   ./scripts/mirror-to-own.sh <ローカルリポジトリのパス>
 
 set -euo pipefail
 
@@ -36,14 +35,14 @@ remote_exists() {
   git remote | grep -qx "$1"
 }
 
-# ---- init: リモートの付け替え & 初回 push ---------------------------------
+# ---- メイン処理: リポジトリ作成 & リモートの付け替え & 初回 push ----------
 
-cmd_init() {
-  if [[ "${1:-}" != "--repo" || -z "${2:-}" ]]; then
-    err "--repo <ローカルリポジトリのパス> を指定してください。"
+main() {
+  if [[ -z "${1:-}" ]]; then
+    err "<ローカルリポジトリのパス> を指定してください。"
     exit 1
   fi
-  local repo_dir="$2"
+  local repo_dir="$1"
 
   if [[ ! -d "$repo_dir" ]]; then
     err "指定されたパスが存在しません: $repo_dir"
@@ -105,17 +104,6 @@ cmd_init() {
 
   info "完了。現在のリモート構成:"
   git remote -v
-}
-
-# ---- エントリポイント -----------------------------------------------------
-
-main() {
-  local sub="${1:-}"
-  shift || true
-  case "$sub" in
-    init) cmd_init "$@" ;;
-    *) err "不明なサブコマンド: ${sub:-（なし）}"; exit 1 ;;
-  esac
 }
 
 main "$@"
