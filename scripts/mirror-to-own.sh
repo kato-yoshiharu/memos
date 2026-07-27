@@ -3,6 +3,7 @@
 # ローカルにある「他 organization のリポジトリ」を、自分のプライベートリポジトリとして管理するためのスクリプト。
 #
 # 仕組み:
+#   - 自分のプライベートリポジトリが GitHub 上になければ gh で作成する
 #   - 元のリモート(他 org)を `upstream` として残す ... fetch 専用。push はしない
 #   - 自分のプライベートリポジトリを `origin` に付け替える ... ここに push する
 #
@@ -55,6 +56,18 @@ cmd_init() {
   local repo_name own_url
   repo_name=$(basename "$(pwd)")
   own_url="${OWN_GITHUB_BASE}/${repo_name}.git"
+
+  # 自分のプライベートリポジトリがなければ作成 (リモート付け替えの前に確認する)
+  if git ls-remote "$own_url" >/dev/null 2>&1; then
+    info "リポジトリは既に存在します: $own_url"
+  else
+    if ! command -v gh >/dev/null 2>&1; then
+      err "リポジトリ $own_url が存在せず、gh コマンドも見つかりません。"
+      exit 1
+    fi
+    info "プライベートリポジトリを作成します -> $own_url"
+    gh repo create "$repo_name" --private
+  fi
 
   # 現在の origin(=他 org) を upstream として退避
   if remote_exists origin; then
