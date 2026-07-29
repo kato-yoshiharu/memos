@@ -1,10 +1,5 @@
 # How to Create Editor
 
-- [How to Create Editor](#how-to-create-editor)
-  - [参考](#参考)
-    - [Tutorial](#tutorial)
-    - [Repository](#repository)
-
 ## 参考
 
 ### Tutorial
