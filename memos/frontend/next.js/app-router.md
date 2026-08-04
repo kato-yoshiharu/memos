@@ -1,6 +1,7 @@
 # App Router
 
-## RSC
+## Server Components
+
 
 ## layout機能
 
