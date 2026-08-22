@@ -41,5 +41,3 @@ accessToken はAPIを呼ぶときに `Authorization: Bearer <token>` として�
 3. バックエンドが accessToken を検証し、正当であればデータを返す
    → 誰がどのリソースにアクセスできるかを判断するのはバックエンド側
 ```
-
-<!-- TODO -->
