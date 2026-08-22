@@ -1,3 +1,0 @@
-# Rust Compiler
-
-Rustのコンパイラは`rustc`。
