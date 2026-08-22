@@ -1,8 +1,10 @@
 # Claude Code
 
-## roadmap
+## Claude Codeを学ぶ
 
-<https://roadmap.sh/claude-code>
+- Claude Academy
+  - <https://x.com/MakeAI_CEO/status/2090671739881787726>
+- <https://roadmap.sh/claude-code>
 
 ## TODO
 
