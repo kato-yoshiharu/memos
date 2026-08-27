@@ -9,6 +9,7 @@ Claude Code のメモリは2系統ある。どちらも会話開始時に読み�
 | 保存先     | リポジトリ内      | `~/.claude/projects/<project>/memory/` |
 
 - `/context`
+  - 現在のコンテキストの内訳をトークン数つきで表示。
 - `/memory`
   - 読み込み済みメモリファイルの確認・編集ができる。
 - claude --debug で起動
