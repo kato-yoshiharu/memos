@@ -12,3 +12,6 @@
 4. `terraform apply`
 
 ## main.tf
+
+## state
+
