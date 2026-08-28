@@ -130,8 +130,6 @@ Claude 自身が書くメモ。
 - `MEMORY.md` — インデックス。**先頭200行 or 25KB まで**が毎セッション読み込まれる
 - トピックファイル（`debugging.md` など）— 起動時には読まれず、必要時にオンデマンドで読まれる
 
-`/memory` で読み込み済みファイル一覧の確認・編集ができる。
-
 ## 参考
 
 - <https://code.claude.com/docs/ja/memory>
