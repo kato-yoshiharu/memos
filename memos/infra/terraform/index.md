@@ -31,3 +31,4 @@ Terraform が生成するもの:
 
 ### 注意点
 
+- backend の設定も `terraform` ブロック内なので `versions.tf` に書く（`backend.tf` に分ける流儀もある）
