@@ -2,11 +2,7 @@
 
 ## 基本的な流れ
 
-1. main.tfに設定を書く
-2. `terraform init`
-3. `terraform fmt` / `terraform validate`
-4. `terraform plan`
-5. `terraform apply`
+1. `versions.tf` を書く（`required_version` / `required_providers` / backend）
 
 ## ファイルの種類
 
