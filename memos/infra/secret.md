@@ -15,3 +15,4 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 
 もう1つの軸が**いつ必要か**。
 
+デプロイ時のものは CI に置く。実行時のものは実行環境（Secrets Manager など）に置く。
