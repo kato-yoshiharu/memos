@@ -29,6 +29,8 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 | `terraform.tfvars`          | ローカル開発のみ             | gitignore 必須。CI からは使えない                    |
 | GitHub Actions Secrets      | デプロイ時のシークレット     | ログで自動マスクされる。値は読み出せない             |
 | GitHub Actions Variables    | シークレットでない設定値     | アカウント ID、リージョンなど                        |
+| AWS Secrets Manager         | 実行時のシークレット         | 自動ローテーション対応。有料                         |
+| AWS SSM Parameter Store     | 実行時のシークレット・設定値 | `SecureString` で暗号化。標準パラメータは無料        |
 ## 使い分け
 
 ### そもそもシークレットを作らないのが最善
