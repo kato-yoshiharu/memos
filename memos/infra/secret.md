@@ -72,3 +72,5 @@ Environments（`production` / `staging`）を使うと環境ごとに値を分�
 Terraform で扱ったシークレットは、経路が何であれ **state に平文で残る**。
 `sensitive = true` は CLI 出力を隠すだけで、state は隠さない。
 
+そのため state を置く S3 バケットは、非公開・暗号化・バージョニング有効を必須とする。
+
