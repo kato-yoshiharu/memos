@@ -20,3 +20,4 @@
 - `main.tf` — リソース定義の本体
 - `variables.tf` — 入力変数の宣言
 - `outputs.tf` — 出力値。他モジュールや CI から参照する
+Terraform が生成するもの:
