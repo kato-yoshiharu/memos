@@ -62,6 +62,9 @@ Environments（`production` / `staging`）を使うと環境ごとに値を分�
 アプリが動作中に必要なものは、アプリ自身が実行時に取得する形にする。
 デプロイ時に値を埋め込むと、ローテーションのたびに再デプロイが必要になる。
 
+小規模なら Parameter Store の `SecureString` で十分。
+自動ローテーションや RDS との統合が要るなら Secrets Manager。
+
 ## 注意点
 
 ### state には平文で入る
