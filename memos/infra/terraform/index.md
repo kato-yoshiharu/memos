@@ -2,7 +2,8 @@
 
 ## 基本的な流れ
 
-1. `versions.tf` を書く（`required_version` / `required_providers` / backend）
+1. `terraform` ブロックを書く（`required_version` / `required_providers` / backend）
+2. `provider` ブロックを書く（region など）
 3. `terraform init`
 4. リソースを定義する
 5. `terraform fmt` / `terraform validate`
