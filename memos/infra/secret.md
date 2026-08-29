@@ -49,6 +49,8 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 
 CI から `terraform apply` するなら、値は GitHub Secrets に置き、環境変数で渡す。
 
+```yaml
+env:
   TF_VAR_origin_shared_secret: ${{ secrets.ORIGIN_SHARED_SECRET }}
 ```
 
