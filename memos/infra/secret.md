@@ -92,4 +92,5 @@ Secrets Manager を使う意味が薄れる。
 例: Cloudflare Worker から origin（Lambda）を呼ぶとき、`X-Origin-Secret` ヘッダで共有シークレットを検証する構成。
 値は Worker と origin の両方に要る。
 
-悪い形は、Worker のダッシュボードと Lambda のコンソールでそれぞれ手入力すること。
+GitHub Secrets の `ORIGIN_SHARED_SECRET` を唯一の正とし、
+CI から `TF_VAR_origin_shared_secret` として Terraform に渡して、Worker と origin の両方に配る。
