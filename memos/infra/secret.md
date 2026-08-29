@@ -82,3 +82,5 @@ Secrets Manager を使う意味が薄れる。
 - **箱**（`aws_secretsmanager_secret`）だけ Terraform で作る
 - **中身**は CLI や手動で入れ、Terraform 側は `ignore_changes` で無視する
 
+こうすると state に値が入らず、ローテーションも Terraform の外で完結する。
+
