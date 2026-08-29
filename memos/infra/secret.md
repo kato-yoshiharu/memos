@@ -47,6 +47,8 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 
 ### デプロイ時 → GitHub Secrets → `TF_VAR_*`
 
+CI から `terraform apply` するなら、値は GitHub Secrets に置き、環境変数で渡す。
+
 ## 注意点
 
 ### state には平文で入る
