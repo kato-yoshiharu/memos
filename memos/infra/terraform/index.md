@@ -4,6 +4,11 @@
 
 1. `versions.tf` を書く（`required_version` / `required_providers` / backend）
 3. `terraform init`
+4. `main.tf` にリソースを書く
+5. `terraform fmt` / `terraform validate`
+6. `terraform plan`
+7. `terraform apply`
+
 
 ## ファイルの種類
 
