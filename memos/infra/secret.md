@@ -60,7 +60,6 @@ Environments（`production` / `staging`）を使うと環境ごとに値を分�
 ### 実行時 → Secrets Manager / Parameter Store
 
 ## 注意点
-env:
 
 ### state には平文で入る
 
