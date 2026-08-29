@@ -3,6 +3,7 @@
 ## 基本的な流れ
 
 1. `versions.tf` を書く（`required_version` / `required_providers` / backend）
+3. `terraform init`
 
 ## ファイルの種類
 
