@@ -79,3 +79,6 @@ Terraform で扱ったシークレットは、経路が何であれ **state に�
 Terraform で `aws_secretsmanager_secret_version` に値を書くと、その値が state に入ってしまい、
 Secrets Manager を使う意味が薄れる。
 
+- **箱**（`aws_secretsmanager_secret`）だけ Terraform で作る
+- **中身**は CLI や手動で入れ、Terraform 側は `ignore_changes` で無視する
+
