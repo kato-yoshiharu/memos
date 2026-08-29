@@ -43,6 +43,8 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 **GitHub OIDC + IAM ロールの AssumeRole** を使えば、長期の AWS アクセスキーを保管する必要がなくなる。
 「保管しないものは漏れない」ので、置き場所を選ぶ前にまずこれを検討する。
 
+同様に、Neon や Cloudflare も OIDC に対応していれば同じ発想が使える（未対応なら API キーを Secrets に置く）。
+
 ## 注意点
 
 ### state には平文で入る
