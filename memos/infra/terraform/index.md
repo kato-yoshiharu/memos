@@ -7,3 +7,6 @@
 3. `terraform fmt` / `terraform validate`
 4. `terraform plan`
 5. `terraform apply`
+
+## ファイルの種類
+
