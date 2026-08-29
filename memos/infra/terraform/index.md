@@ -4,7 +4,7 @@
 
 1. `versions.tf` を書く（`required_version` / `required_providers` / backend）
 3. `terraform init`
-4. `main.tf` にリソースを書く
+4. リソースを定義する
 5. `terraform fmt` / `terraform validate`
 6. `terraform plan`
 7. `terraform apply`
