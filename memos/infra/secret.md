@@ -31,6 +31,7 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 | GitHub Actions Variables    | シークレットでない設定値     | アカウント ID、リージョンなど                        |
 | AWS Secrets Manager         | 実行時のシークレット         | 自動ローテーション対応。有料                         |
 | AWS SSM Parameter Store     | 実行時のシークレット・設定値 | `SecureString` で暗号化。標準パラメータは無料        |
+| Cloudflare Workers secret   | Worker の実行時              | `wrangler secret put`。ダッシュボードでも設定可      |
 ## 使い分け
 
 ### そもそもシークレットを作らないのが最善
