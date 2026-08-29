@@ -69,3 +69,4 @@ Environments（`production` / `staging`）を使うと環境ごとに値を分�
 
 ### state には平文で入る
 
+Terraform で扱ったシークレットは、経路が何であれ **state に平文で残る**。
