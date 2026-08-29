@@ -45,6 +45,8 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 
 同様に、Neon や Cloudflare も OIDC に対応していれば同じ発想が使える（未対応なら API キーを Secrets に置く）。
 
+### デプロイ時 → GitHub Secrets → `TF_VAR_*`
+
 ## 注意点
 
 ### state には平文で入る
