@@ -29,3 +29,5 @@ Terraform が生成するもの:
 - `terraform.tfstate` — state
 - `.terraform/` — `init` が落とした provider・モジュールのキャッシュ
 
+### 注意点
+
