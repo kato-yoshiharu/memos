@@ -56,6 +56,7 @@ env:
 
 Environments（`production` / `staging`）を使うと環境ごとに値を分けられ、
 承認ゲート（required reviewers）も付けられる。
+
 ### 実行時 → Secrets Manager / Parameter Store
 
 ## 注意点
