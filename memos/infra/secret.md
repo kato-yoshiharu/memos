@@ -74,3 +74,8 @@ Terraform で扱ったシークレットは、経路が何であれ **state に�
 
 そのため state を置く S3 バケットは、非公開・暗号化・バージョニング有効を必須とする。
 
+### Secrets Manager の「箱」と「中身」を分ける
+
+Terraform で `aws_secretsmanager_secret_version` に値を書くと、その値が state に入ってしまい、
+Secrets Manager を使う意味が薄れる。
+
