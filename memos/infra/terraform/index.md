@@ -10,7 +10,6 @@
 6. `terraform plan`
 7. `terraform apply`
 
-
 ## ファイルの種類
 
 ディレクトリ内の `*.tf` は全部まとめて読まれる。
