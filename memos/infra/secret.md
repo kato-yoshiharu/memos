@@ -59,6 +59,7 @@ Environments（`production` / `staging`）を使うと環境ごとに値を分�
 
 ### 実行時 → Secrets Manager / Parameter Store
 
+アプリが動作中に必要なものは、アプリ自身が実行時に取得する形にする。
 ## 注意点
 
 ### state には平文で入る
