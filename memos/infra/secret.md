@@ -30,3 +30,5 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 
 ## 注意点
 
+### state には平文で入る
+
