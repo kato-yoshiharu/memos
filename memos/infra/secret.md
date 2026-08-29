@@ -94,3 +94,4 @@ Secrets Manager を使う意味が薄れる。
 
 GitHub Secrets の `ORIGIN_SHARED_SECRET` を唯一の正とし、
 CI から `TF_VAR_origin_shared_secret` として Terraform に渡して、Worker と origin の両方に配る。
+更新は GitHub Secrets を書き換えて `apply` するだけになり、ズレが起きない。
