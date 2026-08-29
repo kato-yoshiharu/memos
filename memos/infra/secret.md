@@ -7,3 +7,4 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 
 どこに置くかと、どうやって渡すかは別の問題。
 
+- **保管場所**: GitHub Secrets、AWS Secrets Manager、SSM Parameter Store など
