@@ -54,6 +54,8 @@ env:
   TF_VAR_origin_shared_secret: ${{ secrets.ORIGIN_SHARED_SECRET }}
 ```
 
+### 実行時 → Secrets Manager / Parameter Store
+
 ## 注意点
 env:
 
