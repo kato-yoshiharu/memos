@@ -20,6 +20,9 @@
 - `main.tf` — リソース定義の本体
 - `variables.tf` — 入力変数の宣言
 - `outputs.tf` — 出力値。他モジュールや CI から参照する
+- `terraform.tfvars` / `*.auto.tfvars` — 変数の値。自動で読まれる
+- `<env>.tfvars` — 環境別の値。`-var-file=` で明示的に渡す
+
 Terraform が生成するもの:
 
 - `.terraform.lock.hcl` — provider のバージョンロック
