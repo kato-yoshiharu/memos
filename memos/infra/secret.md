@@ -90,3 +90,4 @@ Secrets Manager を使う意味が薄れる。
 片方だけ更新すると壊れるため、**単一の保管場所を決めて、そこから各所へ配る**形にする。
 
 例: Cloudflare Worker から origin（Lambda）を呼ぶとき、`X-Origin-Secret` ヘッダで共有シークレットを検証する構成。
+値は Worker と origin の両方に要る。
