@@ -54,6 +54,7 @@ env:
   TF_VAR_origin_shared_secret: ${{ secrets.ORIGIN_SHARED_SECRET }}
 ```
 
+Environments（`production` / `staging`）を使うと環境ごとに値を分けられ、
 ### 実行時 → Secrets Manager / Parameter Store
 
 ## 注意点
