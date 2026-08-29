@@ -13,3 +13,5 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 `tfvars` か Secrets Manager か、という問いは実は択一ではない。
 「GitHub Secrets に保管し、`TF_VAR_*` として Terraform に渡す」のように、保管場所と経路を組み合わせて決める。
 
+もう1つの軸が**いつ必要か**。
+
