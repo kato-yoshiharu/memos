@@ -21,3 +21,8 @@
 - `variables.tf` — 入力変数の宣言
 - `outputs.tf` — 出力値。他モジュールや CI から参照する
 Terraform が生成するもの:
+
+- `.terraform.lock.hcl` — provider のバージョンロック
+- `terraform.tfstate` — state
+- `.terraform/` — `init` が落とした provider・モジュールのキャッシュ
+
