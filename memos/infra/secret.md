@@ -98,3 +98,7 @@ CI から `TF_VAR_origin_shared_secret` として Terraform に渡して、Worke
 
 ローテーションは受信側から進める。
 
+1. 受信側（origin）が新旧どちらの値も受け付けるようにする
+2. 送信側（Worker）を新しい値に切り替える
+3. 受信側から旧値を消す
+
