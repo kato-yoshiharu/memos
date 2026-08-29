@@ -33,6 +33,8 @@ Terraform / GitHub Actions / AWS を前提に、選択肢と使い分け、踏�
 | AWS SSM Parameter Store     | 実行時のシークレット・設定値 | `SecureString` で暗号化。標準パラメータは無料        |
 | Cloudflare Workers secret   | Worker の実行時              | `wrangler secret put`。ダッシュボードでも設定可      |
 | Lambda の環境変数           | Lambda の実行時              | 手軽だが、コンソールで平文で見える。KMS 暗号化は別途 |
+| Vault / Doppler / 1Password | 一元管理                     | 個人〜小規模には過剰なことが多い                     |
+
 ## 使い分け
 
 ### そもそもシークレットを作らないのが最善
