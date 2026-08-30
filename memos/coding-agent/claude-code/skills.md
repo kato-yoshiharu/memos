@@ -5,6 +5,9 @@ skillsとは `/コマンド名` で呼び出せるワークフロー定義
 ## スキル一覧
 
 配布元:
+gstack = <https://github.com/garrytan/gstack>
+ECC = <https://github.com/affaan-m/ECC>
+
 
 ## スキルを作成する
 
