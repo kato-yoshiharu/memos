@@ -21,3 +21,5 @@ Lambda や ECS はロググループが無ければ自動作成する（保持�
 ## MEMO
 
 - ログを書き込むには、実行ロールに `logs:CreateLogStream` と `logs:PutLogEvents` が必要。
+- 課金は 取り込み量 + 保存量 + 検索(Logs Insights)。コストの大半は取り込み量なので、まず出力するログ自体を減らす。
+- ロググループを削除するとログイベントも復元できない。長期保管したい場合は S3 へエクスポートするか、Subscription Filter で流す。
