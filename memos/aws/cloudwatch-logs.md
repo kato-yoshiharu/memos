@@ -18,3 +18,6 @@
 ## 自動作成に注意
 
 Lambda や ECS はロググループが無ければ自動作成する（保持期間は無期限）。
+## MEMO
+
+- ログを書き込むには、実行ロールに `logs:CreateLogStream` と `logs:PutLogEvents` が必要。
