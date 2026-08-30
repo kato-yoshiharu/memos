@@ -18,6 +18,9 @@
 ## 自動作成に注意
 
 Lambda や ECS はロググループが無ければ自動作成する（保持期間は無期限）。
+そのため IaC で先にロググループを作っておくのが望ましい。
+既に自動作成されている状態で Terraform 管理下に置くと `ResourceAlreadyExistsException` になるので `import` する。
+
 ## MEMO
 
 - ログを書き込むには、実行ロールに `logs:CreateLogStream` と `logs:PutLogEvents` が必要。
