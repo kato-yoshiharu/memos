@@ -8,6 +8,9 @@ skillsとは `/コマンド名` で呼び出せるワークフロー定義
 gstack = <https://github.com/garrytan/gstack>
 ECC = <https://github.com/affaan-m/ECC>
 
+### レビュー・品質
+
+- `/code-review`
 
 ## スキルを作成する
 
