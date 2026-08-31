@@ -11,6 +11,7 @@ ECC = <https://github.com/affaan-m/ECC>
 ### レビュー・品質
 
 - `/code-review`
+  — 現在の差分・PR・ブランチをレビューする。
 
 ## スキルを作成する
 
