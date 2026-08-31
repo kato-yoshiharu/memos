@@ -13,6 +13,8 @@ ECC = <https://github.com/affaan-m/ECC>
 - `/code-review`
   — 現在の差分・PR・ブランチをレビューする。
     effort（low〜max, ultra）を指定でき、`--comment` でPRにインラインコメント、`--fix` で修正を適用
+- `/security-review`
+  — 現在のブランチの変更に対してセキュリティレビューを行う
 
 ## スキルを作成する
 
