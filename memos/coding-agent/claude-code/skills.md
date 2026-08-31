@@ -14,7 +14,7 @@ uupm = <https://github.com/nextlevelbuilder/ui-ux-pro-max-skill>
 - `/code-review`（組み込み）
   — 現在の差分・PR・ブランチをレビューする。
     effort（low〜max, ultra）を指定でき、`--comment` でPRにインラインコメント、`--fix` で修正を適用
-- `/security-review`
+- `/security-review`（組み込み）
   — 現在のブランチの変更に対してセキュリティレビューを行う
 - `/simplify`
   — 変更箇所の再利用・簡略化・効率化の観点で修正まで行う（バグ探しはしない）
