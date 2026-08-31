@@ -21,4 +21,5 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Entities
 - Use Cases
 - Interface Adapters
+  - Controller、Presenter、Gateway(Repositoryの実装)。
 - Frameworks & Drivers
