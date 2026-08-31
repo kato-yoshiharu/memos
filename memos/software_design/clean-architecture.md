@@ -34,6 +34,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ## 実装上の層の呼び方
 
+## SOLID原則との関係
+
 ## DDDとの関係
 
 クリーンアーキテクチャは依存の向きを決めるもので、内側に何を書くかは決めていない。
