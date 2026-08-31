@@ -16,6 +16,7 @@ ECC = <https://github.com/affaan-m/ECC>
 - `/security-review`
   — 現在のブランチの変更に対してセキュリティレビューを行う
 - `/simplify`
+  — 変更箇所の再利用・簡略化・効率化の観点で修正まで行う（バグ探しはしない）
 
 ## スキルを作成する
 
