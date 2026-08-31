@@ -30,3 +30,5 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
   - Controller、Presenter、Gateway(Repositoryの実装)
   - 外側（HTTPやDB）の形式と、内側のモデルを相互に変換する
 - Frameworks & Drivers
+  - Webフレームワーク、DB、外部API
+
