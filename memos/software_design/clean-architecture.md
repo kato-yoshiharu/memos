@@ -32,3 +32,5 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Frameworks & Drivers
   - Webフレームワーク、DB、外部API
 
+## 実装上の層の呼び方
+
