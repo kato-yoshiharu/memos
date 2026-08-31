@@ -13,3 +13,7 @@
 - DB、FW、UIを差し替えても、変更が外側に閉じる
 - テスタビリティ
   - ビジネスルールのテストにFWなどが必要なく、集中できる
+
+```text
+Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
+```
