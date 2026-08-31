@@ -37,7 +37,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
-SOLID自体はクリーンアーキテクチャ特有のものではない。
+対応するのは主にDIPとSRP。
 
 [SOLID原則](./solid.md)
 
