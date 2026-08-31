@@ -33,3 +33,6 @@ Terraform が生成するもの:
 
 - backend の設定も `terraform` ブロック内なので `versions.tf` に書く（`backend.tf` に分ける流儀もある）
 - `tfvars` にシークレットを書かない。環境変数 `TF_VAR_<name>` や Secrets Manager 経由にする
+
+## コマンド
+
