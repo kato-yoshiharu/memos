@@ -37,3 +37,4 @@ Terraform が生成するもの:
 ## コマンド
 
 - `terraform init`
+    backend や provider の指定を変えたら再実行する
