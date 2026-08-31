@@ -14,6 +14,10 @@
 - テスタビリティ
   - ビジネスルールのテストにFWなどが必要なく、集中できる
 
+## 依存性のルール
+
+依存は常に外側から内側の一方向のみ。内側は外側を知らない。
+
 ```text
 Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 ```
