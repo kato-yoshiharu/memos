@@ -28,4 +28,5 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
   - 機能。アプリケーション固有のルールである。
 - Interface Adapters
   - Controller、Presenter、Gateway(Repositoryの実装)
+  - 外側（HTTPやDB）の形式と、内側のモデルを相互に変換する
 - Frameworks & Drivers
