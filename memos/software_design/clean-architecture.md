@@ -23,6 +23,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 ```
 
 - Entities
+  - ビジネスルール。
 - Use Cases
   - 機能。アプリケーション固有のルールである。
 - Interface Adapters
