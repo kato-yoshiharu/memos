@@ -20,4 +20,5 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 - Entities
 - Use Cases
+- Interface Adapters
 - Frameworks & Drivers
