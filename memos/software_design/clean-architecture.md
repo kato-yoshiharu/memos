@@ -34,3 +34,5 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ## 実装上の層の呼び方
 
+## DDDとの関係
+
