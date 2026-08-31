@@ -24,6 +24,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 - Entities
 - Use Cases
+  - 機能。アプリケーション固有のルールである。
 - Interface Adapters
   - Controller、Presenter、Gateway(Repositoryの実装)。
 - Frameworks & Drivers
