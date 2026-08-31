@@ -36,3 +36,4 @@ Terraform が生成するもの:
 
 ## コマンド
 
+- `terraform init`
