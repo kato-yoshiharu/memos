@@ -140,6 +140,8 @@ presentation/
 infrastructure/
   db/
     user.rs
+      UserRow(DBの行)
+      UserRow -> User の変換
 ```
 
 ## トランザクション境界
