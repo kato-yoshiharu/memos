@@ -117,6 +117,8 @@ Use CasesがDBを使いたい場合、内側にRepositoryのインターフェ�
 ## トランザクション境界
 
 「1Use Case = 1トランザクション」が基本。
+
+- Use Caseが張る
 - Presentation側(ミドルウェア)で張る
 ## SOLID原則との関係
 
