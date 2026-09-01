@@ -68,6 +68,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 - ドメインロジックが薄く、処理の大半がDBの読み書きに終始する
 - Use Caseを分けてもControllerからRepositoryを呼ぶだけの委譲になる場合
+
 ## 依存性逆転(DIP)
 
 詳細は[SOLID原則](./solid.md)を参照。
