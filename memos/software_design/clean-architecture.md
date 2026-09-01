@@ -59,6 +59,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 例えば、handlers/とrepository/を分けても、両者の間に向きに関する規約がなければ、
 どちらも「domainの外側」という同じ位置なので、ディレクトリが3つでも2層になる。
+
 とはいえ、実践としては層とディレクトリを1対1で対応させるべきである。
 ### 層の数の選び方
 
