@@ -122,6 +122,10 @@ Use CasesがDBを使いたい場合、内側にRepositoryのインターフェ�
 そのDTOを要求する側(内側)に置き、変換コードは外側に置く。
 
 ```text
+application/
+  login/
+    input.rs
+    output.rs
 ```
 
 ## トランザクション境界
