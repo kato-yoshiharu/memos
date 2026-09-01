@@ -79,6 +79,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 どちらの境界でも、やり取りするデータは次のようにする。
 
+- 層をまたぐときは、内側で定義したDTOで受け渡す
 ### DTO（Data Transfer Object）
 
 境界をまたいでデータを運ぶだけの構造体。
