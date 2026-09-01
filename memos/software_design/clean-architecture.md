@@ -128,3 +128,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 クリーンアーキテクチャは依存の向きを決めるもので、内側に何を書くかは決めていない。
 DDDは、その内側をどう作るかを扱う。
 組み合わせて使われることが多い。
+
+## References
+
+- <https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html>
