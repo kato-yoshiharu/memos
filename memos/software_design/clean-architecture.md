@@ -116,6 +116,9 @@ Use CasesがDBを使いたい場合、内側にRepositoryのインターフェ�
 ### DTO（Data Transfer Object）
 
 境界をまたいでデータを運ぶだけの構造体。
+
+#### 定義場所
+
 ## トランザクション境界
 
 「1Use Case = 1トランザクション」が基本。
