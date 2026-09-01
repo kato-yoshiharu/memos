@@ -80,6 +80,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 どちらの境界でも、やり取りするデータは次のようにする。
 
 - 層をまたぐときは、内側で定義したDTOで受け渡す
+- 外側の型(ORMのエンティティ、HTTPのリクエスト/レスポンス型など)を内側に持ち込まない
 ### DTO（Data Transfer Object）
 
 境界をまたいでデータを運ぶだけの構造体。
