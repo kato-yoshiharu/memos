@@ -42,9 +42,9 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 実プロジェクトでは、次の4層の名前がよく使われる。
 
 - Domain
-  - 値オブジェクト、エンティティ、Repositoryのインターフェース
+  - 値オブジェクト、エンティティ
 - Application
-  - ユースケース。
+  - ユースケース。Repositoryのインターフェース
 - Infrastructure
   - Repositoryの実装。DB、外部API、ファイルシステム
 - Presentation
