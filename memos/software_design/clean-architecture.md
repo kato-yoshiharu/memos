@@ -84,6 +84,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - PresentationがHTTPひとつだけで、Infrastructureと分ける動機が薄い
   - そもそもPresentationは広義のInfrastructure。
     原典でもController、Presenter、Gatewayは同じInterface Adapters層にあり、どちらも外部世界との変換という同じ役割。
+    逆に、入口が複数(HTTP、CLI、キューのconsumer)ある場合はPresentationを分ける4層の方がよい。
+
 ## 依存性逆転(DIP)
 
 詳細は[SOLID原則](./solid.md)を参照。
