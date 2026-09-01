@@ -5,3 +5,5 @@
 
 ## SRP(Single Responsibility Principle) 単一責任の原則
 
+モジュールが変更される理由は1つだけであるべき。
+
