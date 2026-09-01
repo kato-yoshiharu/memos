@@ -99,7 +99,6 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 Use CasesがDBを使いたい場合、内側にRepositoryのインターフェースを置き、実装は外側に置く。
 呼び出しの向きは内 → 外だが、依存の向きはインターフェースを介して外 → 内になる。
 
-
 ## 境界をまたぐときのルール
 
 - Presentation ↔ Use Case
