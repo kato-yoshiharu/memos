@@ -119,6 +119,7 @@ Use CasesがDBを使いたい場合、内側にRepositoryのインターフェ�
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
+
 対応するのは主にDIPとSRP。
 
 [SOLID原則](./solid.md)
