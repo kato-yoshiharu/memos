@@ -1,16 +1,5 @@
 # DDD
 
-- [DDD](#ddd)
-  - [Value Object](#value-object)
-    - [メリット](#メリット)
-  - [Entity](#entity)
-  - [Domain Service](#domain-service)
-  - [Repository](#repository)
-  - [Application Service](#application-service)
-  - [Controller](#controller)
-  - [DI](#di)
-  - [Links](#links)
-
 ## Value Object
 
 idは利用するケースが多いので、すべてvalue objectにする(find_by_idの引数など)。
