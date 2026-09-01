@@ -77,6 +77,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Domain を切るか
   - ビジネスルールが複雑なら切る価値がある
 - Applicationを切るか
+  - アプリ全体でUse Caseが薄くないか。
     ただし、層の有無はアプリ全体で決める。
 - Infrastructureを切るか
 - Presentationを切るか
