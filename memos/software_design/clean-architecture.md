@@ -51,6 +51,9 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
   - HTTP、CLIなどのUI。リクエスト/レスポンスの処理
 
 4という数に決まりはない。原典の同心円も図式にすぎず、守るべきは依存の向きだけ。
+
+### 層の数の選び方
+
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
