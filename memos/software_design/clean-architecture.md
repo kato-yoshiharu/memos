@@ -77,6 +77,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Use Case ↔ Infrastructure
   - 内側に置いたRepositoryのインターフェースを介する(DIP)
 
+どちらの境界でも、やり取りするデータは次のようにする。
+
 ### DTO（Data Transfer Object）
 
 境界をまたいでデータを運ぶだけの構造体。
