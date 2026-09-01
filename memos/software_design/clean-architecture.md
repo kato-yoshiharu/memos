@@ -135,6 +135,8 @@ presentation/
     login.rs
       LoginRequest(HTTPのリクエスト)
       LoginResponse(HTTPのレスポンス)
+      LoginRequest -> LoginInput の変換
+      LoginOutput -> LoginResponse の変換
 infrastructure/
   db/
 ```
