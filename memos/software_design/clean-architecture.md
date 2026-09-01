@@ -127,7 +127,9 @@ Repositoryのインターフェースを内側、実装を外側に置くのと�
 application/
   login/
     input.rs
+      LoginInput(Use Caseが要求する入力)
     output.rs
+      LoginOutput(Use Caseが返す出力)
 presentation/
   http/
 ```
