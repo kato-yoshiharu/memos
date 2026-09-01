@@ -124,6 +124,9 @@ Repositoryのインターフェースを内側、実装を外側に置くのと�
 内側が「こういう形で欲しい」と宣言し、外側が自分の都合との差を吸収する。
 
 ```text
+domain/
+  user.rs
+    User(エンティティ)
 application/
   login/
     input.rs
