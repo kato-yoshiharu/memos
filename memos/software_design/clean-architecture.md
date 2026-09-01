@@ -78,6 +78,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
   - ビジネスルールが複雑なら切る価値がある
 - Infrastructureを切るか
 - Presentationを切るか
+  - 入口が複数(HTTP、CLI、キューのconsumer)ある場合はPresentationを分けると価値が出る
+
 2層(Domain / Handler):
 
 - ドメインロジックが薄く、処理の大半がDBの読み書きに終始する
