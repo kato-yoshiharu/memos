@@ -85,6 +85,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 ### DTO（Data Transfer Object）
 
 境界をまたいでデータを運ぶだけの構造体。
+## トランザクション境界
+
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
