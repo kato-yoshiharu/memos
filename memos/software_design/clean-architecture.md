@@ -46,6 +46,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Application
   - ユースケース。
 - Infrastructure
+  - Repositoryの実装。DB、外部API、ファイルシステム
 - Presentation
   - HTTP、CLIなどのUI。リクエスト/レスポンスの処理
 
