@@ -133,6 +133,8 @@ application/
 presentation/
   http/
     login.rs
+      LoginRequest(HTTPのリクエスト)
+      LoginResponse(HTTPのレスポンス)
 ```
 
 ## トランザクション境界
