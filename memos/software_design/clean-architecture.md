@@ -54,6 +54,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ### 層の数の選び方
 
+## 依存性逆転(DIP)
+
 ### DTO（Data Transfer Object）
 
 境界をまたいでデータを運ぶだけの構造体。
