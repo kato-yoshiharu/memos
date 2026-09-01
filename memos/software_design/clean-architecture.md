@@ -135,6 +135,8 @@ presentation/
     login.rs
       LoginRequest(HTTPのリクエスト)
       LoginResponse(HTTPのレスポンス)
+infrastructure/
+  db/
 ```
 
 ## トランザクション境界
