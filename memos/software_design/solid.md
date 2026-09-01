@@ -10,3 +10,5 @@
 「1つのことだけをする」ではなく、「変更を要求するアクターが1つ」という意味。
 ## OCP(Open/Closed Principle) 開放閉鎖の原則
 
+## LSP(Liskov Substitution Principle) リスコフの置換の原則
+
