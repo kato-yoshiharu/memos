@@ -139,6 +139,7 @@ presentation/
       LoginOutput -> LoginResponse の変換
 infrastructure/
   db/
+    user.rs
 ```
 
 ## トランザクション境界
