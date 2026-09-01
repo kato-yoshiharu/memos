@@ -132,6 +132,7 @@ application/
       LoginOutput(Use Caseが返す出力)
 presentation/
   http/
+    login.rs
 ```
 
 ## トランザクション境界
