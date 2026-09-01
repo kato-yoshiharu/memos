@@ -27,6 +27,8 @@ UseCase層。
 
 ## DI
 
+## 境界づけられたコンテキスト
+
 ## Links
 
 - <https://github.com/nrslib/itddd>
