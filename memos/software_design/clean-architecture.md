@@ -72,6 +72,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 ### 層の数の選び方
 
 「変更理由がいくつあるか（SRP）」と「そのコードの寿命」で決まる。
+規模が大きいほど変更理由も増えやすいので判断材料にはなるが、規模だけでは決まらない。
+
 2層(Domain / Handler):
 
 - ドメインロジックが薄く、処理の大半がDBの読み書きに終始する
