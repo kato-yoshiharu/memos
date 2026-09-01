@@ -57,6 +57,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 ## 依存性逆転(DIP)
 
 詳細は[SOLID原則](./solid.md)を参照。
+## 境界をまたぐときのルール
+
 - Presentation ↔ Use Case
 - Use Case ↔ Infrastructure
 ### DTO（Data Transfer Object）
