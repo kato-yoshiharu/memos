@@ -54,6 +54,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ### 層の数の選び方
 
+### DTO（Data Transfer Object）
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
