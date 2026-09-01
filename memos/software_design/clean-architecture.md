@@ -74,7 +74,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 「変更理由がいくつあるか（SRP）」と「そのコードの寿命」で決まる。
 規模が大きいほど変更理由も増えやすいので判断材料にはなるが、規模だけでは決まらない。
 
-- Domain を切るか
+- Domainを切るか
   - ビジネスルールが複雑なら切る価値がある
 - Applicationを切るか
   - アプリ全体でUse Caseが薄くないか。
