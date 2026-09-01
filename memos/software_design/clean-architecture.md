@@ -45,6 +45,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Application
 - Infrastructure
 - Presentation
+  - HTTP、CLIなどのUI。リクエスト/レスポンスの処理
+
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
