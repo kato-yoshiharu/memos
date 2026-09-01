@@ -54,6 +54,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ### 層とディレクトリの関係
 
+とはいえ、実践としては層とディレクトリを1対1で対応させるべきである。
 ### 層の数の選び方
 
 ## 依存性逆転(DIP)
