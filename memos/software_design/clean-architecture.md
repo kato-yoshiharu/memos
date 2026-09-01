@@ -80,6 +80,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
   - アプリ全体でUse Caseが薄くないか。
     ただし、層の有無はアプリ全体で決める。
 - Infrastructureを切るか
+  - 同じ操作に実装が複数あるか(Postgresとインメモリ)
   - テストや開発環境では実行したくない副作用(メール送信、決済API)があるか
 - Presentationを切るか
   - 入口が複数(HTTP、CLI、キューのconsumer)ある場合はPresentationを分けると価値が出る
