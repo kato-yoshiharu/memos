@@ -56,6 +56,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ## 依存性逆転(DIP)
 
+詳細は[SOLID原則](./solid.md)を参照。
 ### DTO（Data Transfer Object）
 
 境界をまたいでデータを運ぶだけの構造体。
