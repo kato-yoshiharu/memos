@@ -63,6 +63,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Presentation ↔ Use Case
   - ControllerはInput Portを呼ぶだけにし、結果はOutput Portか戻り値で返す
 - Use Case ↔ Infrastructure
+  - 内側に置いたRepositoryのインターフェースを介する(DIP)
 ### DTO（Data Transfer Object）
 
 境界をまたいでデータを運ぶだけの構造体。
