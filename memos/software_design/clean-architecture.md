@@ -128,6 +128,8 @@ application/
   login/
     input.rs
     output.rs
+presentation/
+  http/
 ```
 
 ## トランザクション境界
