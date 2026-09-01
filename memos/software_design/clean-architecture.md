@@ -52,6 +52,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 4という数に決まりはない。原典の同心円も図式にすぎず、守るべきは依存の向きだけ。
 
+### 層とディレクトリの関係
+
 ### 層の数の選び方
 
 ## 依存性逆転(DIP)
