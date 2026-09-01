@@ -61,6 +61,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 ## 境界をまたぐときのルール
 
 - Presentation ↔ Use Case
+  - ControllerはInput Portを呼ぶだけにし、結果はOutput Portか戻り値で返す
 - Use Case ↔ Infrastructure
 ### DTO（Data Transfer Object）
 
