@@ -42,6 +42,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 実プロジェクトでは、次の4層の名前がよく使われる。
 
 - Domain
+- Application
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
