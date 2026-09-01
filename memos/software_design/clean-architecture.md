@@ -39,6 +39,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ## 実装上の層の呼び方
 
+実プロジェクトでは、次の4層の名前がよく使われる。
+
 - Domain
 ## SOLID原則との関係
 
