@@ -39,6 +39,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ## 実装上の層の呼び方
 
+- Domain
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
