@@ -64,6 +64,8 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 ### 層の数の選び方
 
+2層(Domain / Handler):
+
 ## 依存性逆転(DIP)
 
 詳細は[SOLID原則](./solid.md)を参照。
