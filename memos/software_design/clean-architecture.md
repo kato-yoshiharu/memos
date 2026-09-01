@@ -44,6 +44,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Domain
 - Application
 - Infrastructure
+- Presentation
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
