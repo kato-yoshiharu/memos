@@ -50,6 +50,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 - Presentation
   - HTTP、CLIなどのUI。リクエスト/レスポンスの処理
 
+4という数に決まりはない。原典の同心円も図式にすぎず、守るべきは依存の向きだけ。
 ## SOLID原則との関係
 
 クリーンアーキテクチャは、SOLIDをコンポーネント/アーキテクチャの粒度に広げたもの。
