@@ -43,6 +43,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 - Domain
 - Application
+  - ユースケース。
 - Infrastructure
 - Presentation
   - HTTP、CLIなどのUI。リクエスト/レスポンスの処理
