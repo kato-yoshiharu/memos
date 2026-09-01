@@ -81,6 +81,7 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 3層(Domain / Application / Infrastructure):
 
+- PresentationがHTTPひとつだけで、Infrastructureと分ける動機が薄い
 ## 依存性逆転(DIP)
 
 詳細は[SOLID原則](./solid.md)を参照。
