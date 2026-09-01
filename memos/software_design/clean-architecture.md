@@ -52,6 +52,11 @@ Entities <- Use Cases <- Interface Adapters <- Frameworks & Drivers
 
 | 原典                 | 実装上の呼び方                     |
 | -------------------- | ---------------------------------- |
+| Entities             | Domain                             |
+| Use Cases            | Application                        |
+| Interface Adapters   | Presentation + Infrastructure      |
+| Frameworks & Drivers | (依存ライブラリ。コードにならない) |
+
 4という数に決まりはない。原典の同心円も図式にすぎず、守るべきは依存の向きだけ。
 
 ### 層とディレクトリの関係
