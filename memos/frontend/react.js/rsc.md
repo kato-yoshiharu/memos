@@ -62,6 +62,8 @@ Client Componentのstateが変わってもServer Componentは再実行されな�
   クライアントでの「HTML受信 → JS DL → hydrate → fetch → 描画」という直列の待ちが減る。
   Server Componentでは「サーバーでfetch → データを含むHTMLを送信 → 表示」になる。
   サーバーとDBの距離が近いため、1段あたりも短い。
+- hydrationコスト。Client Componentが多いほど初回のJS実行時間が増える。
+  `'use client'`を葉に押し下げるのは、hydrate対象を減らす意味もある。
 - FCPの改善。準備できた部分からストリーミングで段階的に届けられる。
 
 データ取得の書きやすさ
