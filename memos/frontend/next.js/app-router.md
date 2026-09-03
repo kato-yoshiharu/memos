@@ -42,6 +42,7 @@ RSCは個々のコンポーネントではなくアーキテクチャ全体の�
 コンポーネントにはServer ComponentとClient Componentの2種類があり、
 境界は`'use client'`で宣言する。
 クライアント遷移時はHTMLではなくPayloadだけを取得する。
+本質はサーバーとクライアントの境界をコンポーネント単位で引けること。
 ## Server Component
 
 Server Componentとは、サーバー側でのみ実行されるコンポーネント。
