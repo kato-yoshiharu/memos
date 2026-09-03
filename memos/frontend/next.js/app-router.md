@@ -27,13 +27,13 @@ Pages Routerとの主な違い
 - ルーティングがファイル名ではなく予約ファイル名で決まる
   （`page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`など）。
 
-## Server Components
+## Server Component
 
-Server Componentsとは、サーバー側でのみ実行されるコンポーネント。
+Server Componentとは、サーバー側でのみ実行されるコンポーネント。
 App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
 クライアント側で動かしたい場合は、ファイルの先頭に`'use client'`を書いてClient Componentにする。
 
-Server Componentsの特徴
+Server Componentの特徴
 
 - コンポーネント内で直接`await`できる。
 - ブラウザAPI, `useState`, `useEffect`, `onClick`などは使えない。
