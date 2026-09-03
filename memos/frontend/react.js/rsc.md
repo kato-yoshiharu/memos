@@ -27,3 +27,5 @@ Server Componentの特徴
 - `onClick`, `onChange`などのイベントハンドラを付ける。
 - `window`, `localStorage`などのブラウザAPIを触る。
 - Contextを使う。
+- クライアント専用ライブラリを使う。
+
