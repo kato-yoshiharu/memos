@@ -66,10 +66,7 @@ Pages Router自体は非推奨（deprecated）ではなく、今もメンテナ�
 App Routerでも、CSRとSSRの両方がある。
 Client Componentは名前に反してCSRではなく、初回はサーバーでもレンダリングされる。
 
-サーバーはコンポーネントツリーをRSC Payloadという形式で表現する。
-RSC Payloadに載るのはServer Componentのレンダリング結果と、Client Componentの参照（どのモジュールを読むか）とそのprops。
-Server Component自体のコードは載らないため、クライアントに送られない。
-Server ComponentからClient Componentへ渡すpropsがシリアライズ可能でなければならないのは、この形式に載せる必要があるため。
+- Server Component
 
 App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
 
