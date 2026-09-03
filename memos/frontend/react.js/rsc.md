@@ -41,3 +41,8 @@ Provider系をルートに置いても全てがクライアントにならない
 importしたものは`'use client'`を書かなくてもClient Componentになり、
 propsで渡したものはレンダリングツリー上で配下にあってもServer Componentのまま。
 
+渡した時点でサーバーでのレンダリングは終わっている。
+Client Component側で`{isOpen && children}`のように条件付きで表示していても、
+サーバーでは実行済みでデータ取得も走っている。「開いたときに取得」にはならない。
+Client Componentのstateが変わってもServer Componentは再実行されない。
+再実行にはルーターのリフレッシュやServer Actionsが要る。
