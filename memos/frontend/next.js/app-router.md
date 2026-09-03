@@ -23,9 +23,9 @@ RSCをPages Routerに後付けできなかったため、ルーターごと作�
 Pages Routerはページ単位のデータフローとhydrationが前提で、コンポーネント単位のRSCと噛み合わない。
 そのため`app/`という別ディレクトリで共存させる形になった。
 
-Pages Routerとの主な違い
+Pages Routerとの主な違いは大きく2つ。
 
-- デフォルトがServer Component
+- RSC対応
   - データ取得がページ単位ではなくコンポーネント単位。ページ内で戦略を混在できる。
 - ルーティングがファイル名ではなく予約ファイル名で決まる
   （`page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`など）。
