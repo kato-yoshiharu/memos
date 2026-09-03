@@ -90,3 +90,4 @@ SEO・初期表示は理由にならない。Client Componentも初回はサー�
 関数本体はクライアントに送られず、参照だけがPayloadに載る。
 呼び出すとその参照に対するPOSTになる。
 
+Client ComponentにコールバックをpropsとしてServer Componentから渡せない制約は、これで回避する。
