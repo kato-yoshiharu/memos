@@ -20,6 +20,9 @@ Next.js 13で追加され、14以降の推奨方式。
 React Server Componentsを前提に作られている。
 
 RSCをPages Routerに後付けできなかったため、ルーターごと作り直したもの。
+Pages Routerはページ単位のデータフローとhydrationが前提で、コンポーネント単位のRSCと噛み合わない。
+そのため`app/`という別ディレクトリで共存させる形になった。
+
 Pages Routerとの主な違い
 
 - デフォルトがServer Component
