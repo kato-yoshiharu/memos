@@ -61,7 +61,7 @@ Pages Router自体は非推奨（deprecated）ではなく、今もメンテナ�
 
 そもそもSSRが要らず静的配信するだけなら、Next.jsではなくVite + React Routerを検討する。
 
-## React Server Components
+## レンダリングの種類
 
 RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
 コンポーネントにはServer ComponentとClient Componentの2種類があり、
