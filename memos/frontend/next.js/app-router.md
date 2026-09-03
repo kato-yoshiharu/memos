@@ -11,6 +11,8 @@ Next.js 13以前からある方式。`pages/`ディレクトリのファイル�
 - データ取得はページ単位。
   `getStaticProps`（SSG）, `getServerSideProps`（SSR）をページコンポーネントからexportして指定する。
 - 共通レイアウトは`_app.tsx`で組む。
+  URL階層とは独立しているため、ページごとに出し分けたい場合は`getLayout`パターンなどの工夫が要る。
+
 ## App Routerとは
 
 Next.js 13で追加され、14以降の推奨方式。
