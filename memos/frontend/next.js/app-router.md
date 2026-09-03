@@ -111,5 +111,5 @@ export const dynamic = 'force-dynamic'  // ルート全体をSSR
 ページ単位ではなくデータ取得単位で決まるのが、Pages Routerとの一番の違い。
 1つのページの中に「1時間キャッシュするヘッダー」と「毎回取得する在庫数」を混在させられる。
 
-ページ遷移してもlayoutは再マウントされず、stateやスクロール位置が保持される。
-遷移のたびにリセットしたい場合は`template.tsx`を使う。
+`cookies()`, `headers()`, `searchParams`を使うと自動的にDynamic Renderingに切り替わる。
+「SSGのつもりが全部SSRになっていた」は起きやすいので、`next build`の出力（`○` Static / `ƒ` Dynamic）で確認する。
