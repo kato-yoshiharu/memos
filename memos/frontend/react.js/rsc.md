@@ -21,3 +21,9 @@ Server Componentの特徴
 
 ## 使い分け
 
+### Client Componentにする条件
+
+- `useState`, `useEffect`などのhookを使う。
+- `onClick`, `onChange`などのイベントハンドラを付ける。
+- `window`, `localStorage`などのブラウザAPIを触る。
+- Contextを使う。
