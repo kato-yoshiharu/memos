@@ -11,3 +11,8 @@ Server ComponentからClient Componentへ渡すpropsがシリアライズ可能�
 ## Server Component
 
 Server Componentとは、サーバー側でのみ実行されるコンポーネント。
+Server Componentの特徴
+
+- コンポーネント内で直接`await`できる。
+- ブラウザAPI, `useState`, `useEffect`, `onClick`などは使えない。
+
