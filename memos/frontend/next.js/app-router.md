@@ -1,7 +1,7 @@
 # App Router
 
 Next.jsのルーティング方式には、App RouterとPages Routerがある。
-1つのプロジェクトに共存もできる。
+（1つのプロジェクトに共存もできる。）
 
 ## Pages Router
 
