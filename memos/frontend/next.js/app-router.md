@@ -80,9 +80,9 @@ SSR/SSG/ISRの区別はServer Component側の話で、`fetch`のキャッシュ�
 
 ### Pages Routerとの対応
 
-Server Componentとは、サーバー側でのみ実行されるコンポーネント。
-App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
-クライアント側で動かしたい場合は、ファイルの先頭に`'use client'`を書いてClient Componentにする。
+概念は全て残っているが、呼び方と指定方法が変わった。
+公式ドキュメントはStatic Rendering / Dynamic Rendering / Streamingという語を主に使う。
+ISRだけは名前が残っている。
 
 Server Componentの特徴
 
