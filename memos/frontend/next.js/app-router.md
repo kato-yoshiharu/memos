@@ -7,6 +7,7 @@ Next.jsのルーティング方式には、App RouterとPages Routerがある。
 
 Next.js 13以前からある方式。`pages/`ディレクトリのファイル構成がそのままURLになる。
 
+- 全てのコンポーネントがクライアント向けにバンドルされる。
 ## App Routerとは
 
 Next.js 13で追加され、14以降の推奨方式。
