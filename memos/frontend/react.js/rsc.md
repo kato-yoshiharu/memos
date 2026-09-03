@@ -64,3 +64,10 @@ Client Componentのstateが変わってもServer Componentは再実行されな�
 
 SEO・初期表示は理由にならない。Client Componentも初回はサーバーでプリレンダリングされるため。
 
+### Server Componentのデメリット
+
+できないこと
+
+- state, イベントハンドラ, ブラウザAPI, Contextが使えない。
+  少しでもインタラクションが要るなら結局Client Componentに切り出すことになる。
+- Client Componentへ渡すpropsはシリアライズ可能でなければならない。
