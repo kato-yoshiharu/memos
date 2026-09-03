@@ -22,6 +22,7 @@ React Server Componentsを前提に作られている。
 Pages Routerとの主な違い
 
 - デフォルトがServer Component
+- データ取得がページ単位ではなくコンポーネント単位。ページ内で戦略を混在できる。
 ## Server Components
 
 Server Componentsとは、サーバー側でのみ実行されるコンポーネント。
