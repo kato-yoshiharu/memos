@@ -41,6 +41,7 @@ Pages Routerとの主な違いは大きく2つ。
 RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
 コンポーネントにはServer ComponentとClient Componentの2種類があり、
 境界は`'use client'`で宣言する。これはサーバーとクライアントのモジュールグラフの境界。
+境界の引き方とServer Componentを選ぶ理由は[使い分け](#使い分け)を参照。
 
 サーバーはコンポーネントツリーをRSC Payloadという形式で表現する。
 Server Component自体のコードは載らないため、クライアントに送られない。
