@@ -77,7 +77,8 @@ Server ComponentからClient Componentへ渡すpropsがシリアライズ可能�
 Server Componentは再レンダリング結果だけが届き、コードは送られない。
 変わったセグメントだけが差し替わり、上位の`layout.tsx`は再レンダリングされない。
 
-## Server Component
+SSR/SSG/ISRの区別はServer Component側の話で、`fetch`のキャッシュ設定やルートセグメント設定で決まる。
+
 
 Server Componentとは、サーバー側でのみ実行されるコンポーネント。
 App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
