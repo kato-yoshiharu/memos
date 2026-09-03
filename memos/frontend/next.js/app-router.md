@@ -66,7 +66,7 @@ Server Componentの特徴
 Server ComponentからClient Componentへ渡すpropsはシリアライズ可能である必要がある。
 関数はそのままでは渡せない。
 
-## layout機能
+## レンダリングの種類
 
 URL階層とレイアウト階層が一致する。
 ネストした場合は外側から順に入れ子になる。
