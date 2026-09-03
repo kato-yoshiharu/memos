@@ -67,6 +67,7 @@ App Routerでも、CSRとSSRの両方がある。
 Client Componentは名前に反してCSRではなく、初回はサーバーでもレンダリングされる。
 
 - Server Component
+  - サーバーでのみ実行。HTMLを生成し、JSはクライアントに送られない。hydrateもされない。
 - Client Component
 
 App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
