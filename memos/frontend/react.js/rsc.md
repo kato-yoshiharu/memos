@@ -33,3 +33,8 @@ Server Componentの特徴
 
 `'use client'`はそのファイルからimportするツリー全体をクライアント化するため、
 ページ全体ではなくインタラクティブな部分だけを小さいコンポーネントに切り出す。
+
+境界を決めるのはimportグラフであって、レンダリングツリーの親子関係ではない。
+importしたものは`'use client'`を書かなくてもClient Componentになり、
+propsで渡したものはレンダリングツリー上で配下にあってもServer Componentのまま。
+
