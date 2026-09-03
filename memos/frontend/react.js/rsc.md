@@ -8,5 +8,6 @@ RSC Payloadに載るのはServer Componentのレンダリング結果と、Clien
 Server Component自体のコードは載らないため、クライアントに送られない。
 Server ComponentからClient Componentへ渡すpropsがシリアライズ可能でなければならないのは、この形式に載せる必要があるため。
 
+クライアント遷移時はHTMLではなくPayloadだけを取得する。
 ## Server Component
 
