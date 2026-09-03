@@ -58,3 +58,5 @@ Client Componentのstateが変わってもServer Componentは再実行されな�
 
 - JSバンドルサイズ。Server Componentのコードとそこでしか使わない依存はクライアントに送られない。
   markdownパーサ、シンタックスハイライタ、日付/i18nライブラリなどで効果が大きい。
+データ取得の書きやすさ
+
