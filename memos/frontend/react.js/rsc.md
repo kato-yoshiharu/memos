@@ -46,3 +46,11 @@ Client Component側で`{isOpen && children}`のように条件付きで表示し
 サーバーでは実行済みでデータ取得も走っている。「開いたときに取得」にはならない。
 Client Componentのstateが変わってもServer Componentは再実行されない。
 再実行にはルーターのリフレッシュやServer Actionsが要る。
+
+### Server Componentのメリット
+
+セキュリティ
+
+- APIキーやDBの接続情報をコンポーネント内で直接扱える。バンドルに含まれないため漏れない。
+- 認可チェックをサーバー側で完結できる。
+
