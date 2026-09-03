@@ -54,6 +54,9 @@ App Router でなくてもよいケース
 - 依存ライブラリがApp Router / RSCに対応していない。
   以前は状態管理やCSS-in-JSで問題になったが、現在はほぼ解消している。
 
+Pages Router自体は非推奨（deprecated）ではなく、今もメンテナンスされている（2026-09、Next.js 16時点）。
+ただし新機能はApp Router側に入るため、長期的には移行前提で考える。
+
 ## React Server Components
 
 RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
