@@ -96,3 +96,7 @@ Client ComponentにコールバックをpropsとしてServer Componentから渡�
 定義は2通り。
 
 ```tsx
+// ファイル全体をServer Actionsにする
+'use server';
+
+export async function createPost(formData: FormData) {
