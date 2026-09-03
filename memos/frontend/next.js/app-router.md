@@ -33,7 +33,8 @@ Pages Routerとの主な違いは大きく2つ。
     （`page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`など）。
   - `layout.tsx`によってURL階層とレイアウト階層が一致する。
   - Parallel Routes / Intercepting Routesが使える。
-  - 詳細は[App Routerのルーティング](./routing.md)を参照。
+
+ルーターの改善の詳細は[App Routerのルーティング](./routing.md)を参照。
 
 ## React Server Components
 
