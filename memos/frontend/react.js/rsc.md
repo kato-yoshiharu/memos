@@ -84,3 +84,5 @@ SEO・初期表示は理由にならない。Client Componentも初回はサー�
 - サーバーで実行されるためブラウザのDevToolsで追えない。ログはサーバー側に出る。
 - `async`コンポーネントはReact Testing Libraryで素直にテストできず、E2Eに寄せることになる。
 
+## Server Actions
+
