@@ -29,3 +29,5 @@ Server Componentの特徴
 - Contextを使う。
 - クライアント専用ライブラリを使う。
 
+### 境界の設計
+
