@@ -11,6 +11,9 @@ Server ComponentからClient Componentへ渡すpropsがシリアライズ可能�
 ## Server Component
 
 Server Componentとは、サーバー側でのみ実行されるコンポーネント。
+RSC対応のフレームワークでは、デフォルトで全てのコンポーネントがServer Componentになる。
+クライアント側で動かしたい場合は、ファイルの先頭に`'use client'`を書いてClient Componentにする。
+
 Server Componentの特徴
 
 - コンポーネント内で直接`await`できる。
