@@ -78,6 +78,7 @@ App Routerではデフォルトで全てのコンポーネントがServer Compon
 
 SSR/SSG/ISRの区別はServer Component側の話で、`fetch`のキャッシュ設定やルートセグメント設定で決まる。
 
+### Pages Routerとの対応
 
 Server Componentとは、サーバー側でのみ実行されるコンポーネント。
 App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
