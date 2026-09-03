@@ -63,10 +63,8 @@ Pages Router自体は非推奨（deprecated）ではなく、今もメンテナ�
 
 ## レンダリングの種類
 
-RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
-コンポーネントにはServer ComponentとClient Componentの2種類があり、
-境界は`'use client'`で宣言する。これはサーバーとクライアントのモジュールグラフの境界。
-境界の引き方とServer Componentを選ぶ理由は[使い分け](#使い分け)を参照。
+App Routerでも、CSRとSSRの両方がある。
+Client Componentは名前に反してCSRではなく、初回はサーバーでもレンダリングされる。
 
 サーバーはコンポーネントツリーをRSC Payloadという形式で表現する。
 RSC Payloadに載るのはServer Componentのレンダリング結果と、Client Componentの参照（どのモジュールを読むか）とそのprops。
