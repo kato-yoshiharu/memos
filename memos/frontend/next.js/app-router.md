@@ -16,6 +16,7 @@ Next.js 13以前からある方式。`pages/`ディレクトリのファイル�
 ## App Routerとは
 
 Next.js 13で追加され、14以降の推奨方式。
+`app/`ディレクトリを使う。
 ## Server Components
 
 Server Componentsとは、サーバー側でのみ実行されるコンポーネント。
