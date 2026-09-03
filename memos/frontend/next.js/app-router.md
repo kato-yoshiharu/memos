@@ -39,3 +39,5 @@ Server ComponentからClient Componentへ渡すpropsはシリアライズ可能�
 ## layout機能
 
 URL階層とレイアウト階層が一致する。
+ネストした場合は外側から順に入れ子になる。
+
