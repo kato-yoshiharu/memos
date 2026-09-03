@@ -84,7 +84,8 @@ SSR/SSG/ISRの区別はServer Component側の話で、`fetch`のキャッシュ�
 公式ドキュメントはStatic Rendering / Dynamic Rendering / Streamingという語を主に使う。
 ISRだけは名前が残っている。
 
-Server Componentの特徴
+| Pages Router                           | App Router                    |
+| -------------------------------------- | ----------------------------- |
 
 - コンポーネント内で直接`await`できる。
 - ブラウザAPI, `useState`, `useEffect`, `onClick`などは使えない。
