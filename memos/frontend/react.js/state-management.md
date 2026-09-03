@@ -7,3 +7,5 @@ API から取得したデータ（サーバー状態）は TanStack Query や SW
 
 ## Context API
 
+React 標準。ライブラリを追加せずに props のバケツリレーを解消できる。
+
