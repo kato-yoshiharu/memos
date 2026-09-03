@@ -31,6 +31,8 @@ Pages Routerとの主な違いは大きく2つ。
 - ルーターの改善
   - ルーティングがファイル名ではなく予約ファイル名で決まる
     （`page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`など）。
+  - `layout.tsx`によってURL階層とレイアウト階層が一致する。
+  - Parallel Routes / Intercepting Routesが使える。
 
 ## Server Component
 
