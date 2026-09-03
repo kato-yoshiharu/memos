@@ -7,6 +7,8 @@ Next.jsのルーティング方式には、App RouterとPages Routerがある。
 
 Next.js 13以前からある方式。`pages/`ディレクトリのファイル構成がそのままURLになる。
 
+## App Routerとは
+
 ## Server Components
 
 Server Componentsとは、サーバー側でのみ実行されるコンポーネント。
