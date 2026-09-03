@@ -10,3 +10,4 @@ Server ComponentからClient Componentへ渡すpropsがシリアライズ可能�
 
 ## Server Component
 
+Server Componentとは、サーバー側でのみ実行されるコンポーネント。
