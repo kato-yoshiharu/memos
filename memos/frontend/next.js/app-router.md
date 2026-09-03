@@ -19,6 +19,8 @@ Next.js 13で追加され、14以降の推奨方式。
 `app/`ディレクトリを使う。
 React Server Componentsを前提に作られている。
 
+Pages Routerとの主な違い
+
 ## Server Components
 
 Server Componentsとは、サーバー側でのみ実行されるコンポーネント。
