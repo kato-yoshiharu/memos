@@ -89,8 +89,7 @@ ISRだけは名前が残っている。
 
 `getStaticProps`, `getServerSideProps`はApp Routerでは使えない。代わりに`fetch`のオプションで指定する。
 
-Server ComponentからClient Componentへ渡すpropsはシリアライズ可能である必要がある。
-関数はそのままでは渡せない。
+```tsx
 
 ## レンダリングの種類
 
