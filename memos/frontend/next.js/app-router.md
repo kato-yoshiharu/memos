@@ -10,6 +10,7 @@ Next.js 13以前からある方式。`pages/`ディレクトリのファイル�
 - 全てのコンポーネントがクライアント向けにバンドルされる。
 - データ取得はページ単位。
   `getStaticProps`（SSG）, `getServerSideProps`（SSR）をページコンポーネントからexportして指定する。
+- 共通レイアウトは`_app.tsx`で組む。
 ## App Routerとは
 
 Next.js 13で追加され、14以降の推奨方式。
