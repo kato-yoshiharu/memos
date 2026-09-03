@@ -118,5 +118,8 @@ export default function Page() {
 
 呼び出し方
 
+- `<form action={fn}>`。JSが読み込まれる前でも動く。
+- `useActionState`で戻り値とpending状態を受け取る。
+- `useOptimistic`で楽観的更新を行う。
 ### Server Actionsの注意
 
