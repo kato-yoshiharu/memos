@@ -116,5 +116,7 @@ export default function Page() {
 }
 ```
 
+呼び出し方
+
 ### Server Actionsの注意
 
