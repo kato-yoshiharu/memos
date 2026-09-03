@@ -71,3 +71,5 @@ SEO・初期表示は理由にならない。Client Componentも初回はサー�
 - state, イベントハンドラ, ブラウザAPI, Contextが使えない。
   少しでもインタラクションが要るなら結局Client Componentに切り出すことになる。
 - Client Componentへ渡すpropsはシリアライズ可能でなければならない。
+  関数を渡せないため、コールバックを渡す設計は使えない。Server Actionsで代替する。
+
