@@ -36,6 +36,8 @@ Pages Routerとの主な違いは大きく2つ。
 
 ルーターの改善の詳細は[App Routerのルーティング](./routing.md)を参照。
 
+## App RouterかPages Routerか
+
 ## React Server Components
 
 RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
