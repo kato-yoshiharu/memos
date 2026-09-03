@@ -102,6 +102,9 @@ const res = await fetch(url, { cache: 'no-store' })        // SSR相当
 ルートセグメント単位でまとめて指定もできる。
 
 ```tsx
+export const revalidate = 60            // ルート全体をISR
+export const dynamic = 'force-dynamic'  // ルート全体をSSR
+```
 
 URL階層とレイアウト階層が一致する。
 ネストした場合は外側から順に入れ子になる。
