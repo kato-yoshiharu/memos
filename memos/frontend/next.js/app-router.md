@@ -42,6 +42,7 @@ Pages Routerとの主な違いは大きく2つ。
 
 App Router が向くケース
 
+- サーバー側でデータを取得してHTMLを返したい（Server Componentで直接`await`できる）。
 App Router でなくてもよいケース
 
 ## React Server Components
