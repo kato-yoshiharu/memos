@@ -73,9 +73,7 @@ RSC Payloadに載るのはServer Componentのレンダリング結果と、Clien
 Server Component自体のコードは載らないため、クライアントに送られない。
 Server ComponentからClient Componentへ渡すpropsがシリアライズ可能でなければならないのは、この形式に載せる必要があるため。
 
-クライアント遷移時はHTMLではなくPayloadだけを取得する。
-Server Componentは再レンダリング結果だけが届き、コードは送られない。
-変わったセグメントだけが差し替わり、上位の`layout.tsx`は再レンダリングされない。
+App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
 
 SSR/SSG/ISRの区別はServer Component側の話で、`fetch`のキャッシュ設定やルートセグメント設定で決まる。
 
