@@ -34,6 +34,8 @@ Pages Routerとの主な違いは大きく2つ。
   - `layout.tsx`によってURL階層とレイアウト階層が一致する。
   - Parallel Routes / Intercepting Routesが使える。
 
+## React Server Components
+
 ## Server Component
 
 Server Componentとは、サーバー側でのみ実行されるコンポーネント。
