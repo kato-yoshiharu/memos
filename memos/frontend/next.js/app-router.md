@@ -67,6 +67,7 @@ App Routerでも、CSRとSSRの両方がある。
 Client Componentは名前に反してCSRではなく、初回はサーバーでもレンダリングされる。
 
 - Server Component
+- Client Component
 
 App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
 
