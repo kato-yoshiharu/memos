@@ -94,9 +94,9 @@ ISRだけは名前が残っている。
 `getStaticProps`, `getServerSideProps`はApp Routerでは使えない。代わりに`fetch`のオプションで指定する。
 
 ```tsx
-const res = await fetch(url)                              // デフォルトはStatic Rendering
-const res = await fetch(url, { cache: 'no-store' })       // SSR相当
-const res = await fetch(url, { next: { revalidate: 60 } })// ISR相当
+const res = await fetch(url)                               // デフォルトはStatic Rendering
+const res = await fetch(url, { next: { revalidate: 60 } }) // ISR相当
+const res = await fetch(url, { cache: 'no-store' })        // SSR相当
 ```
 
 ルートセグメント単位でまとめて指定もできる。
