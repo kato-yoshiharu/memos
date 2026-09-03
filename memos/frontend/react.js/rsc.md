@@ -125,3 +125,5 @@ export default function Page() {
 
 ### Server Actionsの注意
 
+- 引数と戻り値はシリアライズ可能である必要がある。
+- **公開エンドポイントになる。**
