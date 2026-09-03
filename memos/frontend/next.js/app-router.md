@@ -23,6 +23,7 @@ Pages Routerとの主な違い
 
 - デフォルトがServer Component
 - データ取得がページ単位ではなくコンポーネント単位。ページ内で戦略を混在できる。
+- `layout.tsx`によってURL階層とレイアウト階層が一致する。
 ## Server Components
 
 Server Componentsとは、サーバー側でのみ実行されるコンポーネント。
