@@ -49,6 +49,7 @@ App Router が向くケース
 App Router でなくてもよいケース
 
 - 認証後のダッシュボードのように、ほぼ全てがクライアント側の状態で動く画面。
+  結局大半がClient Component（`'use client'`）になり、Server Componentの恩恵が薄い。
 
 今から Pages Router を選ぶケースは少ないが、次のような場合はありうる。
 
