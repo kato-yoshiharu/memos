@@ -91,3 +91,5 @@ SEO・初期表示は理由にならない。Client Componentも初回はサー�
 呼び出すとその参照に対するPOSTになる。
 
 Client ComponentにコールバックをpropsとしてServer Componentから渡せない制約は、これで回避する。
+渡るのは関数ではなく参照なのでシリアライズできる。
+
