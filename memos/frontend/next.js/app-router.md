@@ -106,8 +106,8 @@ export const revalidate = 60            // ルート全体をISR
 export const dynamic = 'force-dynamic'  // ルート全体をSSR
 ```
 
-URL階層とレイアウト階層が一致する。
-ネストした場合は外側から順に入れ子になる。
+### データ取得単位で決まる
+
 
 ページ遷移してもlayoutは再マウントされず、stateやスクロール位置が保持される。
 遷移のたびにリセットしたい場合は`template.tsx`を使う。
