@@ -40,6 +40,10 @@ Pages Routerとの主な違いは大きく2つ。
 
 新規プロジェクトでは App Router を選ぶ。Pages Router は基本的に既存プロジェクトの保守用途。
 
+App Router が向くケース
+
+App Router でなくてもよいケース
+
 ## React Server Components
 
 RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
