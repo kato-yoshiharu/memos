@@ -105,3 +105,14 @@ export async function createPost(formData: FormData) {
 ```
 
 ```tsx
+// Server Component内で関数単位に付ける
+export default function Page() {
+  async function createPost(formData: FormData) {
+    'use server';
+    await db.post.create({ data: { title: formData.get('title') } });
+  }
+
+  return <form action={createPost}>...</form>;
+}
+```
+
