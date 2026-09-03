@@ -60,3 +60,7 @@ Client Componentのstateが変わってもServer Componentは再実行されな�
   markdownパーサ、シンタックスハイライタ、日付/i18nライブラリなどで効果が大きい。
 データ取得の書きやすさ
 
+- `async`コンポーネントで直接`await`できるので、`useEffect` + loading/error stateが不要になる。
+
+SEO・初期表示は理由にならない。Client Componentも初回はサーバーでプリレンダリングされるため。
+
