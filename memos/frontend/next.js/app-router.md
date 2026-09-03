@@ -28,8 +28,7 @@ Pages Routerとの主な違いは大きく2つ。
 - RSC対応
   - デフォルトがServer Component
   - データ取得がページ単位ではなくコンポーネント単位。ページ内で戦略を混在できる。
-- ルーティングがファイル名ではなく予約ファイル名で決まる
-  （`page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`など）。
+- ルーターの改善
 
 ## Server Component
 
