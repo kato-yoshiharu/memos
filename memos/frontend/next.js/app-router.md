@@ -95,8 +95,9 @@ const res = await fetch(url, { cache: 'no-store' })       // SSR相当
 const res = await fetch(url, { next: { revalidate: 60 } })// ISR相当
 ```
 
+ルートセグメント単位でまとめて指定もできる。
 
-## レンダリングの種類
+```tsx
 
 URL階層とレイアウト階層が一致する。
 ネストした場合は外側から順に入れ子になる。
