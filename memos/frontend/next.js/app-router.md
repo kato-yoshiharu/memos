@@ -86,6 +86,10 @@ ISRだけは名前が残っている。
 
 | Pages Router                           | App Router                    |
 | -------------------------------------- | ----------------------------- |
+| SSG（`getStaticProps`）                | Static Rendering              |
+| ISR（`getStaticProps` + `revalidate`） | Static Rendering + revalidate |
+| SSR（`getServerSideProps`）            | Dynamic Rendering             |
+| CSR（`useEffect`でfetch）              | Client-side fetching          |
 
 `getStaticProps`, `getServerSideProps`はApp Routerでは使えない。代わりに`fetch`のオプションで指定する。
 
