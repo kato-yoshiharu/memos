@@ -87,8 +87,7 @@ ISRだけは名前が残っている。
 | Pages Router                           | App Router                    |
 | -------------------------------------- | ----------------------------- |
 
-- コンポーネント内で直接`await`できる。
-- ブラウザAPI, `useState`, `useEffect`, `onClick`などは使えない。
+`getStaticProps`, `getServerSideProps`はApp Routerでは使えない。代わりに`fetch`のオプションで指定する。
 
 Server ComponentからClient Componentへ渡すpropsはシリアライズ可能である必要がある。
 関数はそのままでは渡せない。
