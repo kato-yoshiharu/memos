@@ -19,3 +19,5 @@ Server Componentの特徴
 - コンポーネント内で直接`await`できる。
 - ブラウザAPI, `useState`, `useEffect`, `onClick`などは使えない。
 
+## 使い分け
+
