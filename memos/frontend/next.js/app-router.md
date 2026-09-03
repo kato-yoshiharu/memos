@@ -58,6 +58,8 @@ App Router でなくてもよいケース
 Pages Router自体は非推奨（deprecated）ではなく、今もメンテナンスされている（2026-09、Next.js 16時点）。
 ただし新機能はApp Router側に入るため、長期的には移行前提で考える。
 
+そもそもSSRが要らず静的配信するだけなら、Next.jsではなくVite + React Routerを検討する。
+
 ## React Server Components
 
 RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
