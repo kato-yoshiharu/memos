@@ -72,6 +72,7 @@ Client Componentは名前に反してCSRではなく、初回はサーバーで�
   - 初回リクエスト時はサーバーでもプリレンダリングされてHTMLになり、その後クライアントでhydrateされる。
     以降のstate更新やイベント処理はクライアント側。
 - 完全なCSR
+  - 明示的にオプトアウトした場合のみ。`next/dynamic`の`ssr: false`や、`useEffect`内でのfetchなど。
 
 App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
 
