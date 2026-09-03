@@ -44,6 +44,7 @@ RSCは個々のコンポーネントではなくアーキテクチャ全体の�
 境界の引き方とServer Componentを選ぶ理由は[使い分け](#使い分け)を参照。
 
 サーバーはコンポーネントツリーをRSC Payloadという形式で表現する。
+RSC Payloadに載るのはServer Componentのレンダリング結果と、Client Componentの参照（どのモジュールを読むか）とそのprops。
 Server Component自体のコードは載らないため、クライアントに送られない。
 
 クライアント遷移時はHTMLではなくPayloadだけを取得する。
