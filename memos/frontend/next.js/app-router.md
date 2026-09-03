@@ -70,6 +70,7 @@ Client Componentは名前に反してCSRではなく、初回はサーバーで�
   - サーバーでのみ実行。HTMLを生成し、JSはクライアントに送られない。hydrateもされない。
 - Client Component
   - 初回リクエスト時はサーバーでもプリレンダリングされてHTMLになり、その後クライアントでhydrateされる。
+    以降のstate更新やイベント処理はクライアント側。
 - 完全なCSR
 
 App Routerではデフォルトで全てのコンポーネントがServer Componentになる。
