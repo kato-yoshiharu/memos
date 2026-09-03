@@ -93,4 +93,6 @@ SEO・初期表示は理由にならない。Client Componentも初回はサー�
 Client ComponentにコールバックをpropsとしてServer Componentから渡せない制約は、これで回避する。
 渡るのは関数ではなく参照なのでシリアライズできる。
 
+定義は2通り。
+
 ```tsx
