@@ -1,6 +1,8 @@
 # App Router
 
 Next.jsのルーティング方式には、App RouterとPages Routerがある。
+1つのプロジェクトに共存もできる。
+
 ## Server Components
 
 Server Componentsとは、サーバー側でのみ実行されるコンポーネント。
