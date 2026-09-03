@@ -128,4 +128,5 @@ export default function Page() {
 - 引数と戻り値はシリアライズ可能である必要がある。
 - **公開エンドポイントになる。**
 - 実行してもServer Componentは自動では再描画されない。
+  Next.jsなら`revalidatePath`, `revalidateTag`でキャッシュを無効化する。
 - 順次実行される。複数を同時に呼んでも直列になる。
