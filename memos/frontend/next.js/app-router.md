@@ -37,6 +37,7 @@ Pages Routerとの主な違いは大きく2つ。
 
 ## React Server Components
 
+RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
 ## Server Component
 
 Server Componentとは、サーバー側でのみ実行されるコンポーネント。
