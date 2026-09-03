@@ -19,6 +19,7 @@ Next.js 13で追加され、14以降の推奨方式。
 `app/`ディレクトリを使う。
 React Server Componentsを前提に作られている。
 
+RSCをPages Routerに後付けできなかったため、ルーターごと作り直したもの。
 Pages Routerとの主な違い
 
 - デフォルトがServer Component
