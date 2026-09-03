@@ -53,6 +53,7 @@ App Router でなくてもよいケース
 
 - 依存ライブラリがApp Router / RSCに対応していない。
   以前は状態管理やCSS-in-JSで問題になったが、現在はほぼ解消している。
+
 ## React Server Components
 
 RSCは個々のコンポーネントではなくアーキテクチャ全体の名前。
