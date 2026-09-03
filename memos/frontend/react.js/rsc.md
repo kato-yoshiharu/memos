@@ -58,6 +58,8 @@ Client Componentのstateが変わってもServer Componentは再実行されな�
 
 - JSバンドルサイズ。Server Componentのコードとそこでしか使わない依存はクライアントに送られない。
   markdownパーサ、シンタックスハイライタ、日付/i18nライブラリなどで効果が大きい。
+  Server Componentでは「サーバーでfetch → データを含むHTMLを送信 → 表示」になる。
+  サーバーとDBの距離が近いため、1段あたりも短い。
 
 データ取得の書きやすさ
 
