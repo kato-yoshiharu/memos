@@ -100,3 +100,8 @@ Client ComponentにコールバックをpropsとしてServer Componentから渡�
 'use server';
 
 export async function createPost(formData: FormData) {
+  await db.post.create({ data: { title: formData.get('title') } });
+}
+```
+
+```tsx
