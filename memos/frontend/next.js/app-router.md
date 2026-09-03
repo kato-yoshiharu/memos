@@ -17,6 +17,8 @@ Next.js 13以前からある方式。`pages/`ディレクトリのファイル�
 
 Next.js 13で追加され、14以降の推奨方式。
 `app/`ディレクトリを使う。
+React Server Componentsを前提に作られている。
+
 ## Server Components
 
 Server Componentsとは、サーバー側でのみ実行されるコンポーネント。
