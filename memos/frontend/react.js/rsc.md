@@ -53,6 +53,7 @@ Client Componentのstateが変わってもServer Componentは再実行されな�
 
 - APIキーやDBの接続情報をコンポーネント内で直接扱える。バンドルに含まれないため漏れない。
 - 認可チェックをサーバー側で完結できる。権限がなければデータもUIも生成されない。
+  - Client Componentでの`{isAdmin && ...}`は表示を隠すだけで、
 
 パフォーマンス
 
