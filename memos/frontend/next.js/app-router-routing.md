@@ -105,6 +105,7 @@ app/
   @modal/(.)photo/[id]/page.tsx   → アプリ内遷移時。モーダル
   photo/[id]/page.tsx             → 直接アクセス時。全画面
 ```
+
 Parallel Routesでモーダル用のスロットを作り、Intercepting Routesでそこに差し込む。
 Pages Routerでは、モーダルの状態を自前で管理してURLと同期させる必要があった。
 
