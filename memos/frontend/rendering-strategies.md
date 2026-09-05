@@ -10,3 +10,6 @@ Static Site Generation。
 ## ISR
 
 Incremental Static Regeneration。
+## SSR
+
+Server Side Rendering。
