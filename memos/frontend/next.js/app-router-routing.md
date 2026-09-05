@@ -26,6 +26,9 @@ URL階層とレイアウト階層が一致する。
   Server Componentの`await`が終わるまで表示され、準備できた部分からストリーミングで流れる。
 - `error.tsx`: 同階層をError Boundaryで包む。Client Componentである必要がある。
   `reset`関数を受け取り、再レンダリングを試せる。
+  - 同階層の`layout.tsx`のエラーは捕捉できない。1つ上の階層の`error.tsx`が受ける。
+  - ルートレイアウトのエラーは`global-error.tsx`で受ける。
+
 ## Route Groups
 
 `(folder)`のように括弧で囲むと、URLに含まれないディレクトリになる。
