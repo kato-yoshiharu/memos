@@ -50,3 +50,4 @@ accessToken はAPIを呼ぶときに `Authorization: Bearer <token>` として�
 | メモリ（変数）  | 実行中は盗める  | 消える           |
 | localStorage    | 全部読める      | 残る             |
 
+- cookie: ブラウザが自動でリクエストヘッダに付与するため、JSがトークンに触る必要がない。
