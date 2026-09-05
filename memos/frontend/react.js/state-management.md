@@ -172,7 +172,7 @@ flowchart TD
     Rare -->|Yes| Context[Context API]
     Rare -->|No| Force{履歴と規約を<br/>ライブラリ側に強制させたいか}
     Force -->|Yes| Redux["Redux (Toolkit)"]
-    Force -->|No| Shape{状態の持ち方}
-    Shape -->|atom を積み上げる| Jotai[Jotai]
-    Shape -->|store をまとめて持つ| Zustand[Zustand]
+    Force -->|No| Derived{派生値の連鎖が深く<br/>依存関係を宣言的に持たせたいか}
+    Derived -->|Yes| Jotai[Jotai]
+    Derived -->|No| Zustand[Zustand]
 ```
