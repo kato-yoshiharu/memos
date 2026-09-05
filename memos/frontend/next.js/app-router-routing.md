@@ -52,3 +52,6 @@ URL階層を変えずにレイアウトを分けたいときに使う。
 ## Dynamic Segments
 
 - `[id]`: 1つのセグメントにマッチ。
+- `[...slug]`: 残り全てにマッチ（catch-all）。
+- `[[...slug]]`: セグメントが無い場合にもマッチ（optional catch-all）。
+
