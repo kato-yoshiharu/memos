@@ -49,6 +49,8 @@ React 標準。ライブラリを追加せずに props のバケツリレーを�
 Flux アーキテクチャ。単一の store に状態を集約し、action を dispatch して reducer で更新する。
 
 - すべての更新が action を経由することが**強制される**のが最大の性質で、利点はここから派生する。
+  - slice / action / reducer という形が決まっているため、大きなチームでも書き方が揃う。
+    Zustand や Jotai でも規約を決めれば揃えられるが、維持は lint やレビュー任せになる。
 - ボイラープレートが多いのが難点。Redux Toolkit が前提で記述量はかなり減るが、
   Zustand や Jotai と比べれば依然として多い。
 ## Zustand
