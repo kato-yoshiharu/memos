@@ -57,3 +57,5 @@ Reactアプリをどの構成で作るかの判断。
 flowchart TD
     A[SEOや初期表示が事業価値に直結するページがあるか] -->|いいえ| SPA[Vite + React Router]
     B -->|いいえ| Astro[Astro]
+    B -->|はい| C[Node.jsが動くサーバーを運用できるか]
+    C -->|いいえ| SPA
