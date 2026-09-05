@@ -8,6 +8,7 @@ Static Site Generation。
 ビルド時にHTMLを生成しておく。
 
 - リクエスト時はCDNから静的ファイルを返すだけなので、最も速く、サーバーコストも低い。
+- 内容を変えるにはリビルドが必要。
 ## ISR
 
 Incremental Static Regeneration。
