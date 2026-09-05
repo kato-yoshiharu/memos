@@ -31,3 +31,5 @@ Server Side Rendering。
 ## CSR
 
 Client Side Rendering。
+ほぼ空のHTMLを返し、ブラウザがJSを実行して描画する。
+
