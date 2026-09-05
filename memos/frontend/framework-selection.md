@@ -23,3 +23,5 @@ Reactアプリをどの構成で作るかの判断。
 ### Next.js
 
 - ISRを持つ。
+### React Router (framework mode)
+
