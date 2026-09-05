@@ -27,6 +27,9 @@ URL階層とレイアウト階層が一致する。
 `(folder)`のように括弧で囲むと、URLに含まれないディレクトリになる。
 
 ```text
+app/
+  (marketing)/
+    layout.tsx      → /about と /pricing に適用される
 ## Dynamic Segments
 
 - `[id]`: 1つのセグメントにマッチ。
