@@ -10,6 +10,6 @@ SSR/SSG/ISRとルーティングを備えたReactのフレームワーク。
 
 例えば、`/blog/[slug]`というURLのパスから`[slug]`を取得したい場合は、
 
-## 採用前に確認すること
+- React Server Componentsを前提に設計されている。
 
 で取得できる。
