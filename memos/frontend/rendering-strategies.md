@@ -24,6 +24,8 @@ ECの商品ページ、ニュース一覧など、更新はあるが秒単位の
 
 ### Time-based revalidation
 
+### On-demand revalidation
+
 ## SSR
 
 Server Side Rendering。
