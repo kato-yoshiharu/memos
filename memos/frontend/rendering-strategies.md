@@ -52,4 +52,5 @@ Server Side Rendering。
 Client Side Rendering。
 ほぼ空のHTMLを返し、ブラウザがJSを実行して描画する。
 
+- 初期表示が遅い。JSのダウンロードと実行が終わるまで何も出ない。
 - クローラがJSを実行しないとコンテンツを読めないため、SEOで不利になりうる。
