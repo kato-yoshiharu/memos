@@ -89,6 +89,8 @@ flowchart TD
     Start["複数の離れたコンポーネントが共有するクライアント状態"] --> Rare{更新頻度は低いか}
     Rare -->|Yes| Context[Context API]
     Rare -->|No| Force{履歴と規約を<br/>ライブラリ側に強制させたいか}
+    Force -->|Yes| Redux["Redux (Toolkit)"]
+    Force -->|No| Shape{状態の持ち方}
     Shape -->|atom を積み上げる| Jotai[Jotai]
     Shape -->|store をまとめて持つ| Zustand[Zustand]
 ```
