@@ -126,6 +126,9 @@ const count = useCartStore((s) => s.items.length); // items が変わったと�
 const state = useCartStore(); // store 全体を購読するので coupon の更新でも再レンダリング
 
 // Jotai: どの atom を読んだかで範囲が決まる
+const [items] = useAtom(itemsAtom); // couponAtom を更新しても再レンダリングされない
+```
+
 ### ユースケース
 
 | 向いている状態                                           | 選択    |
