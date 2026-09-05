@@ -61,6 +61,7 @@ Flux アーキテクチャ。単一の store に状態を集約し、action を 
 - ボイラープレートが多いのが難点。Redux Toolkit が前提で記述量はかなり減るが、
   Zustand や Jotai と比べれば依然として多い。
 - 効くのは、複雑なクライアント状態を複数人で触る場面。
+
 ## Zustand
 
 単一の store を持つが、Redux のような action / reducer の規約はない。
