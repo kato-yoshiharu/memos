@@ -92,5 +92,7 @@ export default function Layout({ children, team, analytics }) {
 各スロットが独立していて、それぞれが自分の`loading.tsx`, `error.tsx`を持てる。
 片方の取得が遅くても、もう片方は先に表示できる。片方が失敗してもそこだけエラー表示になる。
 
+直接URLアクセスやリロードのときにスロットがURLと一致しないと404になるため、`default.tsx`を置いて回避する。
+
 ## Intercepting Routes
 
