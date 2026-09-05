@@ -67,3 +67,4 @@ httpOnly cookie はJSから読めないため、Bearer とは併用できない�
 
 httpOnly cookie を採るのは、盗まれたときの被害がその利便性を上回るとき。
 
+- XSSが起きたときにトークンを持ち出されるのを防ぎたい。
