@@ -29,6 +29,8 @@ URL階層とレイアウト階層が一致する。
   - 同階層の`layout.tsx`のエラーは捕捉できない。1つ上の階層の`error.tsx`が受ける。
   - ルートレイアウトのエラーは`global-error.tsx`で受ける。
 
+境界がURL階層と一致するため、`/dashboard/settings`で失敗しても`/dashboard`のレイアウトは残る、といった挙動になる。
+
 ## Route Groups
 
 `(folder)`のように括弧で囲むと、URLに含まれないディレクトリになる。
