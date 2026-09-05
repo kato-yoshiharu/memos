@@ -46,5 +46,7 @@ Flux アーキテクチャ。単一の store に状態を集約し、action を 
 
 ## Zustand
 
+単一の store を持つが、Redux のような action / reducer の規約はない。
+
 ## Jotai
 
