@@ -30,5 +30,7 @@ Reactアプリをどの構成で作るかの判断。
 
 - ISRはない。
 
+### TanStack Start
+
 - ISRはない。
 
