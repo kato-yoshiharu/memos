@@ -33,6 +33,7 @@ React 標準。ライブラリを追加せずに props のバケツリレーを�
 
 - value が変わると、その Context を購読しているコンポーネントが**すべて**再レンダリングされる。
   値の一部しか使っていなくても再レンダリングされるため、頻繁に更新される値には向かない。
+- 更新頻度の異なる値は Context を分割する。state と dispatch を別 Context にするのは定番。
 ## Redux
 
 Flux アーキテクチャ。単一の store に状態を集約し、action を dispatch して reducer で更新する。
