@@ -46,3 +46,5 @@ Flux アーキテクチャ。単一の store に状態を集約し、action を 
 
 ## Zustand
 
+## Jotai
+
