@@ -7,6 +7,7 @@ HTMLを「いつ」「どこで」生成するかの違い。
 Static Site Generation。
 ビルド時にHTMLを生成しておく。
 
+- リクエスト時はCDNから静的ファイルを返すだけなので、最も速く、サーバーコストも低い。
 ## ISR
 
 Incremental Static Regeneration。
