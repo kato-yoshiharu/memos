@@ -17,6 +17,7 @@ Static Site Generation。
 Incremental Static Regeneration。
 SSGしたHTMLを、一定時間後にバックグラウンドで再生成する。
 
+- 再生成が終わるまでは古いHTMLを返す。常に最新である保証はない。
 ECの商品ページ、ニュース一覧など、更新はあるが秒単位の鮮度は要らないもの。
 
 ## SSR
