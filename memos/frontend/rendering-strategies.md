@@ -15,3 +15,4 @@ Incremental Static Regeneration。
 Server Side Rendering。
 ## CSR
 
+Client Side Rendering。
