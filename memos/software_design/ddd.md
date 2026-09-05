@@ -29,6 +29,7 @@ UseCase層。
 
 ## 境界づけられたコンテキスト
 
+モデルが意味を持つ範囲。その境界の外では、同じ言葉でも指すものが変わる。
 ## Links
 
 - <https://github.com/nrslib/itddd>
