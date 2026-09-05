@@ -17,3 +17,4 @@ Reactアプリをどの構成で作るかの判断。
 | Next.js                       | SSG, ISR, SSR, CSR       |
 | React Router (framework mode) | SSG, SSR, CSR            |
 | TanStack Start                | SSG, SSR, CSR            |
+| Astro                         | SSG, SSR                 |
