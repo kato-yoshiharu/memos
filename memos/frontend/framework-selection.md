@@ -61,3 +61,4 @@ flowchart TD
     C -->|いいえ| SPA
     C -->|はい| D[ISRが要るか]
     D -->|はい| Next[Next.js]
+    D -->|いいえ| E[TanStack Queryなどクライアント側の状態管理が中心か]
