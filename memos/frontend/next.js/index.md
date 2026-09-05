@@ -10,9 +10,6 @@ SSR/SSG/ISRとルーティングを備えたReactのフレームワーク。
 
 例えば、`/blog/[slug]`というURLのパスから`[slug]`を取得したい場合は、
 
-```tsx
-const params = useParams();
-console.log(params.slug);
-```
+## 採用前に確認すること
 
 で取得できる。
