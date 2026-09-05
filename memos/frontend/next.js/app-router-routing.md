@@ -101,6 +101,7 @@ export default function Layout({ children, team, analytics }) {
 URLを共有できるモーダルが実現できる。
 X（旧Twitter）がこの挙動。
 タイムラインで画像をクリックすると、背景にタイムラインを残したままモーダルで開き、
+URLは`/user/status/123/photo/1`に変わる。そのURLを共有して直接開くと、全画面のページになる。
 
 ```text
 app/
