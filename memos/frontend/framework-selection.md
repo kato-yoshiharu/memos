@@ -62,3 +62,7 @@ flowchart TD
     C -->|はい| D[ISRが要るか]
     D -->|はい| Next[Next.js]
     D -->|いいえ| E[TanStack Queryなどクライアント側の状態管理が中心か]
+    E -->|はい| TSS[TanStack Start]
+    E -->|いいえ| RR[React Router]
+```
+
