@@ -122,6 +122,8 @@ const payableAtom = atom((get) => applyCoupon(get(totalAtom), get(couponAtom)));
 - Jotai は atom の粒度がそのまま購読単位になるため、atom を分けた時点で範囲が決まる。
   逆に atom を粗く作れば同じ問題が起きる。
 - チューニングの向きも違う。
+  Jotai は最適化が atom の設計に組み込まれる代わりに、
+  後から粒度を変えるとその atom を読んでいる箇所すべてに影響する。
 
 ```ts
 // Zustand: 何を返すセレクタを書いたかで範囲が決まる
