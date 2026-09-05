@@ -99,6 +99,7 @@ atom（状態の最小単位）を定義し、それを組み合わせてグラ�
 const useCartStore = create((set, get) => ({
   items: [],
   coupon: null,
+  addItem: (item) => set({ items: [...get().items, item] }),
 }));
 
 const total = useCartStore((s) => s.items.reduce((a, i) => a + i.price, 0));
