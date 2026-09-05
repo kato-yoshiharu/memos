@@ -20,5 +20,5 @@ Reactアプリをどの構成で作るかの判断。
 | Vite + React Router (SPA)     | CSR                      |
 | Astro                         | SSG, SSR                 |
 
-- Next.jsはISRを持つ。ページ単位のキャッシュと再生成が要るならほぼ一択になる。
-- Vite + React RouterはSPA専用。構成が単純で開発時のビルドも速い。
+### Next.js
+
