@@ -106,3 +106,7 @@ cookieはJSから書けないので、発行はサーバーが行う。
 
 同一オリジンにできる場合（CDNやリバースプロキシで `/` は静的配信、`/api` はバックエンドへ振る）
 
+- `SameSite=Lax; HttpOnly; Secure` のまま使える。
+- CSRFはSameSite=Laxがほぼ防ぐ。
+- 一番素直で、BFFは不要になる。
+
