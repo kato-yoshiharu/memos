@@ -18,3 +18,5 @@ URL階層とレイアウト階層が一致する。
 ページ遷移してもlayoutは再マウントされず、stateやスクロール位置が保持される。
 遷移のたびにリセットしたい場合は`template.tsx`を使う。
 
+## loading.tsxとerror.tsx
+
