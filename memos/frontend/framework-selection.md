@@ -28,6 +28,7 @@ Reactアプリをどの構成で作るかの判断。
 
 ### React Router (framework mode)
 
+- SSRとルーティングに絞られていて、学習量が少ない。
 - ルート単位のloader / actionでデータ取得をサーバーに寄せる。
 - ISRはない。
 
