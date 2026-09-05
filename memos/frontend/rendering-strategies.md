@@ -60,3 +60,4 @@ Client Side Rendering。
 ## 選び方
 
 - 表示するHTMLが、同じ内容か、ユーザー固有か。固有ならSSRかCSR。
+- どれくらいの鮮度が要るか。秒単位ならSSR、分〜時間単位ならISR。
