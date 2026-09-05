@@ -4,3 +4,6 @@ HTMLを「いつ」「どこで」生成するかの違い。
 
 ## SSG
 
+Static Site Generation。
+ビルド時にHTMLを生成しておく。
+
