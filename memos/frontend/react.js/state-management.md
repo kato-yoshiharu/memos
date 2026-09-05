@@ -99,6 +99,12 @@ atom（状態の最小単位）を定義し、それを組み合わせてグラ�
 const useCartStore = create((set, get) => ({
   items: [],
   coupon: null,
+}));
+
+const total = useCartStore((s) => s.items.reduce((a, i) => a + i.price, 0));
+```
+
+```ts
 ### 再レンダリング
 
 - どちらも範囲を絞れるが、絞る単位が違う。
