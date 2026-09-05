@@ -28,6 +28,7 @@ Reactアプリをどの構成で作るかの判断。
 
 ### React Router (framework mode)
 
+- ルート単位のloader / actionでデータ取得をサーバーに寄せる。
 - ISRはない。
 
 ### TanStack Start
