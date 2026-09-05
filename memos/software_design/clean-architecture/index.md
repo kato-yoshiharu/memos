@@ -178,3 +178,7 @@ DDDは、その内側をどう作るかを扱う。
 ## References
 
 - <https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html>
+
+## TODO
+
+- [ ] <https://zenn.dev/sre_holdings/articles/a57f088e9ca07d>
