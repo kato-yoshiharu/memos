@@ -59,3 +59,4 @@ Client Side Rendering。
 
 ## 選び方
 
+- 表示するHTMLが、同じ内容か、ユーザー固有か。固有ならSSRかCSR。
