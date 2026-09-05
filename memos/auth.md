@@ -44,6 +44,7 @@ accessToken はAPIを呼ぶときに `Authorization: Bearer <token>` として�
 
 ## 認証情報の送信方法
 
+cookie認証とBearer認証のどちらを採るかで、必要な保存場所が変わる。
 ## トークンの保存場所
 
 | 保存場所        | XSSで盗まれるか | リロードで残るか |
