@@ -101,3 +101,4 @@ API呼び出しは Bearer で行い、更新のときだけブラウザが自動
 
 ## SPAでhttpOnly cookieを使う
 
+cookieはJSから書けないので、発行はサーバーが行う。
