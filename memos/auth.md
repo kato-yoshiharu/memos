@@ -110,3 +110,7 @@ cookieはJSから書けないので、発行はサーバーが行う。
 - CSRFはSameSite=Laxがほぼ防ぐ。
 - 一番素直で、BFFは不要になる。
 
+オリジンが分かれる場合（静的配信と API が別ドメイン）
+
+- cookieは `SameSite=None; Secure` が必須。
+- バックエンドにCORSの `Access-Control-Allow-Credentials` とオリジン限定が要る。
