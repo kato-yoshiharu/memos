@@ -28,3 +28,7 @@ Reactアプリをどの構成で作るかの判断。
 
 ### React Router (framework mode)
 
+- ISRはない。
+
+- ISRはない。
+
