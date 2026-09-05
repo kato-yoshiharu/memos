@@ -22,6 +22,8 @@ ECの商品ページ、ニュース一覧など、更新はあるが秒単位の
 ## SSR
 
 Server Side Rendering。
+リクエストごとにサーバーでHTMLを生成する。
+
 ## CSR
 
 Client Side Rendering。
