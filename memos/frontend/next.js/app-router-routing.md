@@ -71,3 +71,5 @@ const params = useParams();
 
 ## Parallel Routes
 
+`@`を付けたディレクトリがスロットになり、1つのレイアウトに複数のページを同時に描画する。
+
