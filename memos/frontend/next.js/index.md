@@ -1,6 +1,6 @@
 # Next.js
 
-## 採用基準
+SSR/SSG/ISRとルーティングを備えたReactのフレームワーク。
 
 
 ### URL系
