@@ -73,3 +73,11 @@ const params = useParams();
 
 `@`を付けたディレクトリがスロットになり、1つのレイアウトに複数のページを同時に描画する。
 
+```text
+app/
+  layout.tsx
+  page.tsx
+  @team/page.tsx
+  @analytics/page.tsx
+```
+
