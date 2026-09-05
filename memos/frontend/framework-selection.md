@@ -58,6 +58,7 @@ SSRで得られるものが無い一方、サーバーの運用とサーバー�
 ```mermaid
 flowchart TD
     A[SEOや初期表示が事業価値に直結するページがあるか] -->|いいえ| SPA[Vite + React Router]
+    A -->|はい| B[操作が主体で、画面遷移してもUIの状態を保ちたいか]
     B -->|いいえ| Astro[Astro]
     B -->|はい| C[Node.jsが動くサーバーを運用できるか]
     C -->|いいえ| SPA
