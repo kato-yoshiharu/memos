@@ -25,6 +25,7 @@ Reactアプリをどの構成で作るかの判断。
 - ISRを持つ。
   ページ数が多くビルド時に全部生成できず、かつリクエストごとの鮮度は要らない場合に効く。React構成でこれが要るならほぼ一択。
 - App RouterではRSCがデフォルト。実装が最も成熟していて情報も多い（RSC自体はReactの機能で、React RouterやTanStack Startにもある）。
+- `next/image`が手厚い。ユーザー投稿のようなビルド時に存在しない画像も最適化できる。
 
 ### React Router (framework mode)
 
