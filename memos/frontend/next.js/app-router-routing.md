@@ -10,3 +10,5 @@
 - `not-found.tsx`: `notFound()`が呼ばれたときの表示。
 - `route.ts`: Route Handler。ページではなくAPIエンドポイントになる。
 
+## layout.tsx
+
