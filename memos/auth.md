@@ -48,3 +48,5 @@ accessToken はAPIを呼ぶときに `Authorization: Bearer <token>` として�
 | --------------- | --------------- | ---------------- |
 | httpOnly cookie | 読めない        | 残る             |
 | メモリ（変数）  | 実行中は盗める  | 消える           |
+| localStorage    | 全部読める      | 残る             |
+
