@@ -15,3 +15,4 @@ Reactアプリをどの構成で作るかの判断。
 | 構成                          | 対応するレンダリング戦略 |
 | ----------------------------- | ------------------------ |
 | Next.js                       | SSG, ISR, SSR, CSR       |
+| React Router (framework mode) | SSG, SSR, CSR            |
