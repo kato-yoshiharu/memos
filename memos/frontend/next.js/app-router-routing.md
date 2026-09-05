@@ -69,3 +69,5 @@ Client Componentでは`useParams`を使う。
 const params = useParams();
 ```
 
+## Parallel Routes
+
