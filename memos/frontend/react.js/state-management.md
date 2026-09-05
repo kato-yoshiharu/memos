@@ -86,3 +86,6 @@ atom（状態の最小単位）を定義し、それを組み合わせてグラ�
 
 ```mermaid
 flowchart TD
+    Shape -->|atom を積み上げる| Jotai[Jotai]
+    Shape -->|store をまとめて持つ| Zustand[Zustand]
+```
