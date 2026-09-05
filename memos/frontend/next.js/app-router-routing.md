@@ -25,6 +25,7 @@ URL階層とレイアウト階層が一致する。
 - `loading.tsx`: 同階層の`page.tsx`をSuspenseで包み、その中身をfallbackにする。
   Server Componentの`await`が終わるまで表示され、準備できた部分からストリーミングで流れる。
 - `error.tsx`: 同階層をError Boundaryで包む。Client Componentである必要がある。
+  `reset`関数を受け取り、再レンダリングを試せる。
 ## Route Groups
 
 `(folder)`のように括弧で囲むと、URLに含まれないディレクトリになる。
