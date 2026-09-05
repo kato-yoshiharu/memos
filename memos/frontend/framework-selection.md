@@ -39,5 +39,7 @@ Reactアプリをどの構成で作るかの判断。
 - 型付けとTanStack Queryとの統合が厚い。
 - ISRはない。
 
+### Vite + React Router (SPA)
+
 ### Astro
 
