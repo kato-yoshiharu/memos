@@ -11,3 +11,4 @@
 
 ## hydration mismatch
 
+3のとき、サーバーの出力とクライアントの出力が食い違うと、hydration mismatchのエラーになる。
