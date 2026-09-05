@@ -16,6 +16,9 @@ Reactは該当箇所のDOMを破棄して作り直すため、表示のちらつ
 
 よくある原因
 
+- `new Date()`, `Math.random()`, `crypto.randomUUID()`など、実行のたびに値が変わるもの。
+- `window`, `localStorage`, `navigator`などブラウザAPIをレンダリング中に参照する。
+  サーバーでは`undefined`になる。
 対処
 
 - クライアントでしか決まらない値は`useEffect`で描画後に設定する。
