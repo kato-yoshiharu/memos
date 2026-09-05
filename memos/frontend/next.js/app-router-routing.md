@@ -98,3 +98,6 @@ export default function Layout({ children, team, analytics }) {
 
 ## モーダルの実装
 
+## 参考
+
+<https://nextjs.org/docs/app/building-your-application/routing>
