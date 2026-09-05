@@ -2,6 +2,7 @@
 
 SSR/SSG/ISRとルーティングを備えたReactのフレームワーク。
 
+他の構成と比べてどうかは、[フレームワーク選定](../framework-selection.md)を参照。
 
 ### URL系
 
