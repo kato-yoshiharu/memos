@@ -36,6 +36,7 @@ React 標準。ライブラリを追加せずに props のバケツリレーを�
 - 更新頻度の異なる値は Context を分割する。state と dispatch を別 Context にするのは定番。
 - テーマ・ロケール・ログインユーザーなど、めったに変わらない値の配布に向く。
 - 状態管理ライブラリが Context を使う場合も、載せるのは**ストアの参照**だけで、値は載せない。
+  購読は atom やセレクタ単位で行うため、Context value の変化による広範囲の再レンダリングは起きない
 ## Redux
 
 Flux アーキテクチャ。単一の store に状態を集約し、action を dispatch して reducer で更新する。
