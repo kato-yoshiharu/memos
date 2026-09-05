@@ -19,3 +19,5 @@ Reactアプリをどの構成で作るかの判断。
 | TanStack Start                | SSG, SSR, CSR            |
 | Vite + React Router (SPA)     | CSR                      |
 | Astro                         | SSG, SSR                 |
+
+- Next.jsはISRを持つ。ページ単位のキャッシュと再生成が要るならほぼ一択になる。
