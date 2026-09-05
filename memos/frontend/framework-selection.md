@@ -32,5 +32,6 @@ Reactアプリをどの構成で作るかの判断。
 
 ### TanStack Start
 
+- 型付けとTanStack Queryとの統合が厚い。
 - ISRはない。
 
