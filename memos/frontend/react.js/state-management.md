@@ -66,6 +66,7 @@ Flux アーキテクチャ。単一の store に状態を集約し、action を 
 単一の store を持つが、Redux のような action / reducer の規約はない。
 
 - Provider が不要で、React の外（イベントハンドラや非同期処理）からも `store.getState()` で読める。
+  React 外からの読み書きは Redux や Jotai でもできるが、追加の構成なしにできるのは Zustand だけ。
 - Jotai が atom を積み上げるボトムアップなのに対し、こちらは store を分割するトップダウン。
 - ボイラープレートが少なく、Redux ほどの規約を必要としない中規模までの実質的な第一候補。
 
