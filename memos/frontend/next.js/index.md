@@ -6,7 +6,7 @@ SSR/SSG/ISRとルーティングを備えたReactのフレームワーク。
 
 ## Next.jsを選ぶ理由
 
-Dynamic Segmentを取得したい場合は`useParams`を使う。
+他のフレームワークにない、あるいは差が出る点。
 
 例えば、`/blog/[slug]`というURLのパスから`[slug]`を取得したい場合は、
 
