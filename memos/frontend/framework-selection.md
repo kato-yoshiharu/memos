@@ -69,3 +69,5 @@ flowchart TD
     E -->|いいえ| RR[React Router]
 ```
 
+## サーバーが要るケース
+
