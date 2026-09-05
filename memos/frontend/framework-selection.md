@@ -53,3 +53,4 @@ Reactアプリをどの構成で作るかの判断。
 
 ```mermaid
 flowchart TD
+    A[SEOや初期表示が事業価値に直結するページがあるか] -->|いいえ| SPA[Vite + React Router]
