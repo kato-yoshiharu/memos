@@ -50,6 +50,7 @@ cookie認証とBearer認証のどちらを採るかで、必要な保存場所�
 
 - cookie認証: ブラウザが `Cookie` ヘッダに自動で付与するため、JSがトークンに触る必要がない。
 - Bearer認証: アプリのコードが自分で `Authorization` ヘッダに載せるため、JSから読める場所に置く必要がある。
+
 httpOnly cookie はJSから読めないため、Bearer とは併用できない。
 「cookieに保存する」とは、cookie自体が資格情報として送られる構成を指す。
 
