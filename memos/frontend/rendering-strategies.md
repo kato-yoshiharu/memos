@@ -57,3 +57,5 @@ Client Side Rendering。
 
 管理画面、社内ツールなど、SEOが不要でログインが前提のもの。
 
+## 選び方
+
