@@ -22,6 +22,8 @@ URL階層とレイアウト階層が一致する。
 
 自分で境界コンポーネントを書いてツリーに差し込む代わりに、ファイルを置く場所で境界の範囲が決まる。
 
+- `loading.tsx`: 同階層の`page.tsx`をSuspenseで包み、その中身をfallbackにする。
+  Server Componentの`await`が終わるまで表示され、準備できた部分からストリーミングで流れる。
 ## Route Groups
 
 `(folder)`のように括弧で囲むと、URLに含まれないディレクトリになる。
