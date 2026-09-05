@@ -124,6 +124,8 @@ const payableAtom = atom((get) => applyCoupon(get(totalAtom), get(couponAtom)));
 - チューニングの向きも違う。
   Jotai は最適化が atom の設計に組み込まれる代わりに、
   後から粒度を変えるとその atom を読んでいる箇所すべてに影響する。
+  Zustand はセレクタの修正や `useMemo` の追加で、問題が出た箇所だけ局所的に直せる。
+  派生関係が複雑なほど Jotai が有利で、そうでなければ Zustand で足りる。
 
 ```ts
 // Zustand: 何を返すセレクタを書いたかで範囲が決まる
