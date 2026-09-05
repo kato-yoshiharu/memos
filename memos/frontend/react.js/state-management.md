@@ -37,6 +37,9 @@ React 標準。ライブラリを追加せずに props のバケツリレーを�
 - テーマ・ロケール・ログインユーザーなど、めったに変わらない値の配布に向く。
 - 状態管理ライブラリが Context を使う場合も、載せるのは**ストアの参照**だけで、値は載せない。
   購読は atom やセレクタ単位で行うため、Context value の変化による広範囲の再レンダリングは起きない
+  （Jotai の `Provider` がこれ。Zustand はモジュールスコープの store を `useSyncExternalStore` で購読し、
+  そもそも Context を使わない）。
+
 ## Redux
 
 Flux アーキテクチャ。単一の store に状態を集約し、action を dispatch して reducer で更新する。
