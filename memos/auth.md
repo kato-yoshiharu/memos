@@ -114,3 +114,7 @@ cookieはJSから書けないので、発行はサーバーが行う。
 
 - cookieは `SameSite=None; Secure` が必須。
 - バックエンドにCORSの `Access-Control-Allow-Credentials` とオリジン限定が要る。
+- fetchは毎回 `credentials: "include"`。
+- SameSite=Laxによる CSRF 防御が消えるので、CSRFトークンかOriginヘッダ検証を自前で足す。
+- SafariのITPなどでサードパーティcookie扱いされ、落ちるリスクがある。
+
