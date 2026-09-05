@@ -45,3 +45,5 @@ accessToken はAPIを呼ぶときに `Authorization: Bearer <token>` として�
 ## トークンの保存場所
 
 | 保存場所        | XSSで盗まれるか | リロードで残るか |
+| --------------- | --------------- | ---------------- |
+| httpOnly cookie | 読めない        | 残る             |
