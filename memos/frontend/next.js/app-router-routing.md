@@ -30,6 +30,13 @@ URL階層とレイアウト階層が一致する。
 app/
   (marketing)/
     layout.tsx      → /about と /pricing に適用される
+    about/page.tsx  → /about
+    pricing/page.tsx→ /pricing
+  (app)/
+    layout.tsx      → /dashboard に適用される
+    dashboard/page.tsx
+```
+
 ## Dynamic Segments
 
 - `[id]`: 1つのセグメントにマッチ。
