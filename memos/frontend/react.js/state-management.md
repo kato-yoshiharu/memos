@@ -125,6 +125,7 @@ const payableAtom = atom((get) => applyCoupon(get(totalAtom), get(couponAtom)));
 const count = useCartStore((s) => s.items.length); // items が変わったときだけ
 const state = useCartStore(); // store 全体を購読するので coupon の更新でも再レンダリング
 
+// Jotai: どの atom を読んだかで範囲が決まる
 ### ユースケース
 
 | 向いている状態                                           | 選択    |
