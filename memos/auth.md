@@ -78,6 +78,6 @@ httpOnly cookie を採るのは、盗まれたときの被害がその利便性�
 - accessTokenが短命で、リフレッシュトークンを持たない。
 - サードパーティスクリプトを一切載せない。
 
-accessTokenはメモリ、リフレッシュトークンだけhttpOnly cookie、という分け方が現在の標準的な構成。
+RFC 10017（OAuth 2.0 for Browser-Based Apps）が第一に推奨するのはBFFで、
 API呼び出しは Bearer で行い、更新のときだけブラウザが自動で送るcookieを使う、という役割分担になる。
 
