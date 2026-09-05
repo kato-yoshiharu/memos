@@ -59,3 +59,5 @@ flowchart TD
     B -->|いいえ| Astro[Astro]
     B -->|はい| C[Node.jsが動くサーバーを運用できるか]
     C -->|いいえ| SPA
+    C -->|はい| D[ISRが要るか]
+    D -->|はい| Next[Next.js]
