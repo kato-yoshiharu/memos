@@ -96,6 +96,7 @@ export default function Layout({ children, team, analytics }) {
 
 ## Intercepting Routes
 
+アプリ内から遷移したときだけ、そのルートを現在のレイアウトの中に差し込む。
 ## モーダルの実装
 
 URLを共有できるモーダルが実現できる。
