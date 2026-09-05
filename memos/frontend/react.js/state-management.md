@@ -106,6 +106,9 @@ const total = useCartStore((s) => s.items.reduce((a, i) => a + i.price, 0));
 ```
 
 ```ts
+// Jotai: 値を atom に分け、派生値も atom として宣言する
+const itemsAtom = atom([]);
+const couponAtom = atom(null);
 ### 再レンダリング
 
 - どちらも範囲を絞れるが、絞る単位が違う。
