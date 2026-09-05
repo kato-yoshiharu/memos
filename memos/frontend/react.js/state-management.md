@@ -52,7 +52,7 @@ Flux アーキテクチャ。単一の store に状態を集約し、action を 
   - 履歴が漏れなく直列に並び、Redux DevTools で追える。
     Redux では `cart/addItem` のような action 名と payload が必ず履歴に残る。
     DevTools 自体は Zustand の `devtools` ミドルウェアや `jotai-devtools` でも使えるが、
-    `set()` を任意の場所で呼べる分、履歴の粒度は揃わない。
+    Zustand の `set()` は名前が任意で、省略すると履歴に `anonymous` と並ぶ。
   - slice / action / reducer という形が決まっているため、大きなチームでも書き方が揃う。
     Zustand や Jotai でも規約を決めれば揃えられるが、維持は lint やレビュー任せになる。
 - ボイラープレートが多いのが難点。Redux Toolkit が前提で記述量はかなり減るが、
