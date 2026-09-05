@@ -40,7 +40,6 @@ SSRで得られるものが無い一方、サーバーの運用とサーバー�
 
 - 型付けとTanStack Queryとの統合が厚い。
 - サーバー関数とルートローダーでデータ取得をサーバーに寄せられる。
-- 型付けとTanStack Queryとの統合が厚い。
 
 ### Vite + React Router (SPA)
 
