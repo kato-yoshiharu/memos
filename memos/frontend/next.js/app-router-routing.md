@@ -99,6 +99,8 @@ export default function Layout({ children, team, analytics }) {
 ## モーダルの実装
 
 URLを共有できるモーダルが実現できる。
+X（旧Twitter）がこの挙動。
+タイムラインで画像をクリックすると、背景にタイムラインを残したままモーダルで開き、
 
 ```text
 app/
