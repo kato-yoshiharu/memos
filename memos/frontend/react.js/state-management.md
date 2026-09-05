@@ -121,6 +121,7 @@ const payableAtom = atom((get) => applyCoupon(get(totalAtom), get(couponAtom)));
 - Zustand は購読側がセレクタで指定するため、書き方次第で範囲が広がる。
 - Jotai は atom の粒度がそのまま購読単位になるため、atom を分けた時点で範囲が決まる。
   逆に atom を粗く作れば同じ問題が起きる。
+- チューニングの向きも違う。
 
 ```ts
 // Zustand: 何を返すセレクタを書いたかで範囲が決まる
