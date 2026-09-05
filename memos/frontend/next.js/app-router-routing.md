@@ -63,6 +63,7 @@ export default async function Page({ params }) {
 }
 ```
 
+Client Componentでは`useParams`を使う。
 
 ```tsx
 ```
