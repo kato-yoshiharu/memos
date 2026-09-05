@@ -7,6 +7,7 @@ API から取得したデータ（サーバー状態）は TanStack Query や SW
 
 ## 導入の判断
 
+- サーバー状態: TanStack Query / SWR が持つ。
 ## Context API
 
 React 標準。ライブラリを追加せずに props のバケツリレーを解消できる。
