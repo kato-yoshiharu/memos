@@ -7,3 +7,6 @@ HTMLを「いつ」「どこで」生成するかの違い。
 Static Site Generation。
 ビルド時にHTMLを生成しておく。
 
+## ISR
+
+Incremental Static Regeneration。
