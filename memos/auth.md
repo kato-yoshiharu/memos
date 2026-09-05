@@ -119,3 +119,4 @@ cookieはJSから書けないので、発行はサーバーが行う。
 - SafariのITPなどでサードパーティcookie扱いされ、落ちるリスクがある。
 
 フロントとAPIを別ドメインに置く前提なら、フロント側にサーバーを残すほうがcookie周りは楽になる。
+ブラウザから見れば同一オリジンになるため、上に挙げた手当て（`SameSite=None`、CORS、`credentials: "include"`、CSRFトークン、ITP対策）がまとめて不要になる。
