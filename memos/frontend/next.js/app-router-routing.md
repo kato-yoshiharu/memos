@@ -89,5 +89,6 @@ export default function Layout({ children, team, analytics }) {
 }
 ```
 
+各スロットが独立していて、それぞれが自分の`loading.tsx`, `error.tsx`を持てる。
 ## Intercepting Routes
 
