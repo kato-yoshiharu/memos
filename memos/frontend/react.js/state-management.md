@@ -122,6 +122,9 @@ const payableAtom = atom((get) => applyCoupon(get(totalAtom), get(couponAtom)));
 
 ```ts
 // Zustand: 何を返すセレクタを書いたかで範囲が決まる
+const count = useCartStore((s) => s.items.length); // items が変わったときだけ
+const state = useCartStore(); // store 全体を購読するので coupon の更新でも再レンダリング
+
 ### ユースケース
 
 | 向いている状態                                           | 選択    |
