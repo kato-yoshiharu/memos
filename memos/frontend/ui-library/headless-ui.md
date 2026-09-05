@@ -7,6 +7,7 @@ Chakra UI や MUI のようなスタイル込みのコンポーネントライ�
 
 提供されるのは主に次のもの。
 
+- キーボード操作（Tab / 矢印キー / Esc / Home・End など）
 - WAI-ARIA 属性（`role`、`aria-expanded`、`aria-controls` など）の付与
 - 開閉やアクティブ項目といった状態管理
 
