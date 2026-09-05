@@ -9,6 +9,7 @@ API から取得したデータ（サーバー状態）は TanStack Query や SW
 
 - サーバー状態: TanStack Query / SWR が持つ。
 - URL に載る状態（フィルタ・ソート・ページ）: URL クエリ（`nuqs`）。
+- めったに変わらない値の配布（テーマ・ロケール・ログインユーザー）: Context API。
 ## Context API
 
 React 標準。ライブラリを追加せずに props のバケツリレーを解消できる。
