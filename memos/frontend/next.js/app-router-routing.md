@@ -81,3 +81,6 @@ app/
   @analytics/page.tsx
 ```
 
+スロットは`layout.tsx`にpropsとして渡る。
+
+```tsx
