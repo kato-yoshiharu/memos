@@ -22,6 +22,8 @@ SSGしたHTMLを、一定時間後にバックグラウンドで再生成する�
 
 ECの商品ページ、ニュース一覧など、更新はあるが秒単位の鮮度は要らないもの。
 
+### Time-based revalidation
+
 ## SSR
 
 Server Side Rendering。
