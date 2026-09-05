@@ -86,6 +86,9 @@ atom（状態の最小単位）を定義し、それを組み合わせてグラ�
 
 ```mermaid
 flowchart TD
+    Start["複数の離れたコンポーネントが共有するクライアント状態"] --> Rare{更新頻度は低いか}
+    Rare -->|Yes| Context[Context API]
+    Rare -->|No| Force{履歴と規約を<br/>ライブラリ側に強制させたいか}
     Shape -->|atom を積み上げる| Jotai[Jotai]
     Shape -->|store をまとめて持つ| Zustand[Zustand]
 ```
