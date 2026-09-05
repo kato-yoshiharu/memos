@@ -12,3 +12,5 @@
 ## hydration mismatch
 
 3のとき、サーバーの出力とクライアントの出力が食い違うと、hydration mismatchのエラーになる。
+Reactは該当箇所のDOMを破棄して作り直すため、表示のちらつきやstateの喪失が起きる。
+
