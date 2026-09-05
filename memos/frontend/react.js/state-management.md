@@ -9,6 +9,7 @@ API から取得したデータ（サーバー状態）は TanStack Query や SW
 
 - サーバー状態: TanStack Query / SWR が持つ。
 - URL に載る状態（フィルタ・ソート・ページ）: URL クエリ（`nuqs`）。
+- 1つのコンポーネントとその子で完結する状態: `useState` / `useReducer` + props。
 - めったに変わらない値の配布（テーマ・ロケール・ログインユーザー）: Context API。
   実際には `next-themes` や i18n ライブラリ、認証ライブラリの hook を使うことが多いが、
   いずれも内部は Context なので位置づけは変わらない。
