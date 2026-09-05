@@ -98,6 +98,10 @@ export default function Layout({ children, team, analytics }) {
 
 ## モーダルの実装
 
+URLを共有できるモーダルが実現できる。
+
+```text
+app/
 Parallel Routesでモーダル用のスロットを作り、Intercepting Routesでそこに差し込む。
 Pages Routerでは、モーダルの状態を自前で管理してURLと同期させる必要があった。
 
