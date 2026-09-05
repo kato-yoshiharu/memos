@@ -15,6 +15,8 @@ Static Site Generation。
 ## ISR
 
 Incremental Static Regeneration。
+SSGしたHTMLを、一定時間後にバックグラウンドで再生成する。
+
 ## SSR
 
 Server Side Rendering。
