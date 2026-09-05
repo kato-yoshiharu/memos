@@ -55,3 +55,5 @@ URL階層を変えずにレイアウトを分けたいときに使う。
 - `[...slug]`: 残り全てにマッチ（catch-all）。
 - `[[...slug]]`: セグメントが無い場合にもマッチ（optional catch-all）。
 
+Server Componentでは`params`がpropsで渡る。
+
