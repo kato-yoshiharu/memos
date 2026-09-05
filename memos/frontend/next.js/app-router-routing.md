@@ -97,6 +97,8 @@ export default function Layout({ children, team, analytics }) {
 ## Intercepting Routes
 
 アプリ内から遷移したときだけ、そのルートを現在のレイアウトの中に差し込む。
+ディレクトリ名に記法を使い、`(.)`が同階層、`(..)`が1つ上、`(...)`がルートから。
+
 同じURLでも到達経路によって見え方が変わる。
 
 - 一覧からクリックして遷移: モーダルで表示。背景の一覧は残る。URLは`/photo/1`になる。
