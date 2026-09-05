@@ -57,3 +57,9 @@ URL階層を変えずにレイアウトを分けたいときに使う。
 
 Server Componentでは`params`がpropsで渡る。
 
+```tsx
+export default async function Page({ params }) {
+  const { slug } = await params;
+}
+```
+
