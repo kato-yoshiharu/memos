@@ -26,6 +26,9 @@ ECの商品ページ、ニュース一覧など、更新はあるが秒単位の
 
 ### On-demand revalidation
 
+時間ではなく、更新イベントを起点に再生成する方法。
+
+
 ## SSR
 
 Server Side Rendering。
