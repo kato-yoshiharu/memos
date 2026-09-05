@@ -21,3 +21,5 @@
 ## AIフレンドリー
 
 <https://x.com/commte/status/2000405288055439790>
+
+TailwindCSSはAIフレンドリーとされている。
