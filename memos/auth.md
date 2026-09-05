@@ -83,3 +83,5 @@ RFC 10017（OAuth 2.0 for Browser-Based Apps）が第一に推奨するのはBFF
 BFFを置けない場合の次善策が、accessTokenはメモリ、リフレッシュトークンだけhttpOnly cookieという分け方。
 API呼び出しは Bearer で行い、更新のときだけブラウザが自動で送るcookieを使う、という役割分担になる。
 
+- <https://www.rfc-editor.org/info/rfc10017/>
+
