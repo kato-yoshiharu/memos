@@ -84,3 +84,8 @@ app/
 スロットは`layout.tsx`にpropsとして渡る。
 
 ```tsx
+export default function Layout({ children, team, analytics }) {
+  return <>{children}{team}{analytics}</>;
+}
+```
+
