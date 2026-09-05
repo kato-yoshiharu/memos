@@ -85,3 +85,5 @@ API呼び出しは Bearer で行い、更新のときだけブラウザが自動
 
 - <https://www.rfc-editor.org/info/rfc10017/>
 
+## XSSへの多層防御
+
