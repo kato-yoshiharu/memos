@@ -27,6 +27,9 @@ Vicinae
 ## 自動化
 
 - Hammerspoon
+  - Luaで書く汎用自動化フレームワーク
+  - ランチャー（Vicinae）やウィンドウマネージャ（AeroSpace）が持たない機能を、スクリプトで自作して補う位置づけ
+
 ## ファイラ
 
 - yazi
