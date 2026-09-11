@@ -26,3 +26,7 @@ Neovim
 - fzf
 - fd
 - mise
+
+## ブラウザ
+
+Dia
