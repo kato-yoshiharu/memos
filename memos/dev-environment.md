@@ -20,3 +20,9 @@ Neovim
 
 - yazi
 
+## CLI ツール
+
+- zoxide
+- fzf
+- fd
+- mise
