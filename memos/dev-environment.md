@@ -50,3 +50,6 @@ Dia
 
 - NeoVim
   - Cursorから完全移行。設定、拡張機能、便利な機能
+- Nix
+- Octo.nvim
+- gh dash
