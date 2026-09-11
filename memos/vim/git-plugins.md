@@ -23,3 +23,4 @@
 コミットグラフ表示は gitgraph.nvim (isakbm/gitgraph.nvim) を採用する。vim-flog は不採用。
 
 - vim-flog は vim-fugitive 依存。fugitive は無効化して Neogit + Diffview に一本化する方針のため、不採用。
+- gitgraph.nvim は fugitive 非依存の Lua 実装で、Diffview との連携例もあり既存構成に馴染む
