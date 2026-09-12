@@ -10,6 +10,7 @@ CLIコマンドも用意されている。
 
 - クリップボード履歴: `Clipboard History`コマンドでコピー履歴を検索・ペースト
 - スニペット: `Snippets`コマンド
+- Quicklinks: `Create Quicklink`でURLやコマンドに`{argument}`プレースホルダーを埋めたショートカットを作成
 ### 設定ファイルの管理
 
 設定ファイルはプレーンテキストのJSONなので、dotfilesリポジトリで管理し、シンボリックリンクで配置できる。
