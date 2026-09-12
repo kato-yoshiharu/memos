@@ -22,6 +22,9 @@ mattpocock = <https://github.com/mattpocock/skills>
   — 変更箇所の再利用・簡略化・効率化の観点で修正まで行う（バグ探しはしない）
 - `/plan-eng-review`（gstack）
   — EM 目線でアーキテクチャ・障害モード・システム設計をレビューする
+- `shot-annotate`（shot-annotate）
+  — スクリーンショットに赤枠・矢印・線・楕円・テキストラベルで注釈を付ける。
+
 
 ### テスト・デバッグ
 
