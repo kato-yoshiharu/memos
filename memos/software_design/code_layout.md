@@ -2,3 +2,4 @@
 
 ## 層で切るか、機能で切るか
 
+フロントエンドのtype-basedとfeature-basedの対立と同じ話。
