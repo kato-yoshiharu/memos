@@ -57,6 +57,8 @@ fork は2種類ある
 ## トランスクリプトの保存場所
 
 `~/.claude/projects/<project>/<session-id>.jsonl` に JSONL で保存される。
+`<project>` は作業ディレクトリのパスの英数字以外を `-` に置換したもの。
+
 ## 参考
 
 - <https://code.claude.com/docs/en/sessions>
