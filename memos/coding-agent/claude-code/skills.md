@@ -28,6 +28,8 @@ mattpocock = <https://github.com/mattpocock/skills>
 ### 設計・計画
 
 - `grilling`（mattpocock）
+  — 実装前に、計画・設計の未決定事項や隠れた前提を1問ずつ問い詰めて洗い出す。
+    文脈に合えば自動で発動する
 
 ### テスト・デバッグ
 
