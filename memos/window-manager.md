@@ -12,6 +12,8 @@
   - `aerospace enable on` / `aerospace enable off`
 
 キーバインド:
+
+- ウィンドウ間のフォーカス移動: `alt + h/j/k/l`
 ### 参考
 
 - <https://zenn.dev/mozumasu/articles/mozumasu-window-costomization>
