@@ -20,6 +20,7 @@
 
 要約はセッションを移動せずコンテキストだけ圧縮する。範囲を指定した `/compact`。
 
+`/clear` を実行した直後のセッションでは、メニュー先頭に `/resume <session-id> (previous session)` が追加され、`/clear` 前の会話に戻れる（Claude Code v2.1.191 以降）。
 
 ### 復元されないもの
 
