@@ -14,6 +14,8 @@
 キーバインド:
 
 - ウィンドウ間のフォーカス移動: `alt + h/j/k/l`
+- レイアウト切り替え: `alt + /`（タイル）、`alt + ,`（アコーディオン）
+
 ### 参考
 
 - <https://zenn.dev/mozumasu/articles/mozumasu-window-costomization>
