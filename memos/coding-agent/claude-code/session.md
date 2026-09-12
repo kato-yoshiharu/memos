@@ -49,6 +49,8 @@ CLI 起動時に同じことをするなら `claude --continue --fork-session`�
 
 fork は2種類ある
 
+## 使い分け
+
 ## 参考
 
 - <https://code.claude.com/docs/en/sessions>
