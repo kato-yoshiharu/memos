@@ -12,6 +12,8 @@
 - コードと会話の両方を復元（Restore code and conversation）
 - 会話のみ復元、コードは今のまま（Restore conversation）
 - コードのみ復元、会話は今のまま（Restore code）
+- ここから先を要約、コンテキストを空ける（Summarize from here）
+- ここまでを要約、以降のメッセージは残す（Summarize up to here）
 ### 復元されないもの
 
 - **Bash 経由のファイル変更**。`rm`・`mv`・`cp` などは追跡されない。追跡対象は編集ツールの変更だけ
