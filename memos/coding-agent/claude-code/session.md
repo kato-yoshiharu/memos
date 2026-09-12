@@ -45,6 +45,10 @@ CLI 起動時に同じことをするなら `claude --continue --fork-session`�
 分岐後も引き継がれるもの:
 
 - 「このセッションでは許可」の権限（同一プロセスのため）。`--fork-session` で別プロセスにすると引き継がれない
+## fork
+
+fork は2種類ある
+
 ## 参考
 
 - <https://code.claude.com/docs/en/sessions>
