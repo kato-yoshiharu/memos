@@ -9,6 +9,7 @@ gstack = <https://github.com/garrytan/gstack>
 ECC = <https://github.com/affaan-m/ECC>
 uupm = <https://github.com/nextlevelbuilder/ui-ux-pro-max-skill>
 shot-annotate = <https://github.com/commte/shot-annotate>
+mattpocock = <https://github.com/mattpocock/skills>
 
 ### レビュー・品質
 
