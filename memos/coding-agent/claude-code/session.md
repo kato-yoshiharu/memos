@@ -52,6 +52,9 @@ CLI 起動時に同じことをするなら `claude --continue --fork-session`�
 
 fork は2種類ある
 
+- セッションの fork: `--fork-session` / `/branch`。会話をコピーして別系統にする
+- サブエージェントの fork: 親のシステムプロンプトと文脈を丸ごと継承する。Agent ツールで `subagent_type: "fork"` を指定するか、`context: fork` を設定したスキルを使う
+
 ## 使い分け
 
 ## セッション名と再開
