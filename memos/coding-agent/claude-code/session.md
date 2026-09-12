@@ -58,6 +58,11 @@ fork は2種類ある
 
 | 場面               | 方法                      |
 | ------------------ | ------------------------- |
+| 起動時             | `claude -n <session-name>` |
+| セッション中       | `/rename <session-name>`   |
+| セッションピッカー | 選択して `Ctrl+R`         |
+
+再開の方法:
 ## トランスクリプトの保存場所
 
 `~/.claude/projects/<project>/<session-id>.jsonl` に JSONL で保存される。
