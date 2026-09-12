@@ -66,6 +66,8 @@ fork は2種類ある
 
 - 対話中: `/resume` で一覧を表示し、選んで再開する
 - 起動時: `claude --resume`（`-r`）でピッカーを開く。`claude --resume <name>` で名前を直接指定もできる
+- 直前のセッションをすぐ再開: `claude --continue`（`-c`）
+
 `/branch` や `--fork-session` で作ったセッションは別の ID を持ち、ピッカーには別行で並ぶ。
 
 診断は `/status` の IDE 欄、または `claude doctor` で確認できる。
