@@ -8,3 +8,7 @@
 - 直前のセッションをすぐ再開: `claude --continue`（`-c`）。
 
 セッションの実体は、`~/.claude/projects/<パスをエンコードしたディレクトリ>/*.jsonl` に保存される。
+## 参考
+
+- <https://code.claude.com/docs/en/sessions>
+- <https://code.claude.com/docs/en/checkpointing>
