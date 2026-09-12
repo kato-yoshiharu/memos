@@ -28,7 +28,6 @@ mattpocock = <https://github.com/mattpocock/skills>
 ### 設計・計画
 
 - `grilling`（mattpocock）
-- `grill-me`（mattpocock）
 
 ### テスト・デバッグ
 
