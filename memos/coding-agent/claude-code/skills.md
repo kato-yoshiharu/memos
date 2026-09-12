@@ -25,6 +25,10 @@ mattpocock = <https://github.com/mattpocock/skills>
 - `shot-annotate`（shot-annotate）
   — スクリーンショットに赤枠・矢印・線・楕円・テキストラベルで注釈を付ける。
 
+### 設計・計画
+
+- `grilling`（mattpocock）
+- `grill-me`（mattpocock）
 
 ### テスト・デバッグ
 
