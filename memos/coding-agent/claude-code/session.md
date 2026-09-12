@@ -63,6 +63,7 @@ fork は2種類ある
 | セッションピッカー | 選択して `Ctrl+R`         |
 
 再開の方法:
+- 対話中: `/resume` で一覧を表示し、選んで再開する
 ## トランスクリプトの保存場所
 
 `~/.claude/projects/<project>/<session-id>.jsonl` に JSONL で保存される。
