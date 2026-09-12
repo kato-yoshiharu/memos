@@ -6,6 +6,7 @@
 - ウィンドウサイズの調整
 - タスクごとにワークスペースを割り当てることができる
 
+### 基本的な使い方
 ### 参考
 
 - <https://zenn.dev/mozumasu/articles/mozumasu-window-costomization>
