@@ -64,6 +64,8 @@ fork は2種類ある
 
 再開の方法:
 - 対話中: `/resume` で一覧を表示し、選んで再開する
+診断は `/status` の IDE 欄、または `claude doctor` で確認できる。
+
 ## トランスクリプトの保存場所
 
 `~/.claude/projects/<project>/<session-id>.jsonl` に JSONL で保存される。
