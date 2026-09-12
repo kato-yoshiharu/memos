@@ -32,7 +32,6 @@
 ## `/branch` — 分岐させる
 
 
-セッションの実体は、`~/.claude/projects/<パスをエンコードしたディレクトリ>/*.jsonl` に保存される。
 ## 参考
 
 - <https://code.claude.com/docs/en/sessions>
