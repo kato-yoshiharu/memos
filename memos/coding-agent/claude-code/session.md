@@ -33,6 +33,11 @@
 
 会話をそこまでコピーして、新しいセッションに切り替わる。元のセッションは無傷で残る。
 
+```text
+/branch <branch-name>
+```
+
+名前を省くと最初のプロンプトから命名される。
 ## 参考
 
 - <https://code.claude.com/docs/en/sessions>
