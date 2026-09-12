@@ -13,6 +13,7 @@
 - 会話のみ復元、コードは今のまま（Restore conversation）
 - コードのみ復元、会話は今のまま（Restore code）
 - ここから先を要約、コンテキストを空ける（Summarize from here）
+  - 指定時点より後を圧縮する。コンテキストを空けるためのもの
 - ここまでを要約、以降のメッセージは残す（Summarize up to here）
 ### 復元されないもの
 
