@@ -20,6 +20,10 @@ Rust製のターミナルファイラー。
 - `S`: ripgrep を使って中身で検索する
 - `Ctrl+S`: 実行中の検索を中止する
 
+別の場所へ飛ぶ。
+
+- `z`: fzf でディレクトリを選んで移動する
+- `Z`: zoxide の履歴から移動する
 ## 参考
 
 - <https://zenn.dev/mozumasu/scraps/211222cfc68b75>
