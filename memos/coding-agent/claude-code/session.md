@@ -38,6 +38,10 @@
 ```
 
 名前を省くと最初のプロンプトから命名される。
+
+CLI 起動時に同じことをするなら `claude --continue --fork-session`。
+直前のセッションの内容を引き継いだ新しいセッションとして立ち上がる（元のセッションはそのまま残る）。
+
 ## 参考
 
 - <https://code.claude.com/docs/en/sessions>
