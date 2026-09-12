@@ -10,6 +10,8 @@
 
 - 起動/停止
   - `aerospace enable on` / `aerospace enable off`
+
+キーバインド:
 ### 参考
 
 - <https://zenn.dev/mozumasu/articles/mozumasu-window-costomization>
