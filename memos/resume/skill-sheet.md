@@ -23,8 +23,11 @@
 - 言語
   - TypeScript/Rust/Go
 - フレームワーク
+  - React.js/Next.js/Axum/Echo
 - DB
   - PostgreSQL/DynamoDB
+- API Protocol
+  - REST/GraphQL
 
 ## 自己PR
 
