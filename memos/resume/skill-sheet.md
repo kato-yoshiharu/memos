@@ -28,6 +28,7 @@
   - PostgreSQL/DynamoDB
 - API Protocol
   - REST/GraphQL
+- 開発環境
 - AI Coding Agent
   - Claude Code/Codex
 
