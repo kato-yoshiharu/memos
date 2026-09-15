@@ -179,6 +179,8 @@ harpoonなどのプラグインを使う。
 - [ ] `:grep <pattern> <path>`: 検索結果をquickfixに読み込む
 - `:vimgrep /<pattern>/ <file>`: Vim組み込みの検索でquickfixを作る
 - `:make`: `makeprg`を実行してエラーをquickfixに読み込む
+- [ ] `:copen` / `:cclose`: quickfixウィンドウを開く / 閉じる
+- [ ] `:cn` / `:cp`: 次 / 前の項目に移動する
 ## 折りたたみ
 
 - [ ] `zf<motion>`: 範囲を折りたたみとして作る
