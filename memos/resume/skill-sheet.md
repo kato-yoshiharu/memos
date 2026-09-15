@@ -28,6 +28,8 @@
   - PostgreSQL/DynamoDB
 - API Protocol
   - REST/GraphQL
+- AI Coding Agent
+  - Claude Code/Codex
 
 ## 自己PR
 
