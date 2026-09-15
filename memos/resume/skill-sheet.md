@@ -20,6 +20,11 @@
 | DB              | PostgreSQL/DynamoDB        |
 | API Protocol    | REST/GraphQL               |
 | AI Coding Agent | Claude Code, Codex         |
+- 言語
+  - TypeScript/Rust/Go
+- フレームワーク
+- DB
+  - PostgreSQL/DynamoDB
 
 ## 自己PR
 
