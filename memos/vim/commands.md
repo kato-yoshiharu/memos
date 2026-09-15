@@ -181,6 +181,8 @@ harpoonなどのプラグインを使う。
 - `:make`: `makeprg`を実行してエラーをquickfixに読み込む
 - [ ] `:copen` / `:cclose`: quickfixウィンドウを開く / 閉じる
 - [ ] `:cn` / `:cp`: 次 / 前の項目に移動する
+- [ ] `:cfirst` / `:clast`: quickfixの最初 / 最後の項目に移動する
+- [ ] `:cc <n>`: quickfixのn番目に移動する
 ## 折りたたみ
 
 - [ ] `zf<motion>`: 範囲を折りたたみとして作る
