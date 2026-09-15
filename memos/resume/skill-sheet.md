@@ -70,9 +70,9 @@ AI Coding Agentを前提とした開発プロセスの設計にも関心があ�
 規模: バックエンド5名 / フロントエンド2名
 担当工程: 実装 / テスト / 保守・運用
 
-- [チームラボAIbot](https://www.team-lab.com/teamlabaibot/)の開発
-- [チームラボAIbot](https://www.team-lab.com/teamlabaibot/)の管理画面の開発
-- [チームラボチケットシステム](https://www.team-lab.com/ticket/)の開発
+- [チームラボAIbot](https://www.team-lab.com/teamlabaibot/)のフロントエンドの開発
+- [チームラボAIbot](https://www.team-lab.com/teamlabaibot/)の管理画面のフロントエンドの開発
+- [チームラボチケットシステム](https://www.team-lab.com/ticket/)のフロントエンドの開発
 
 ### Stayway(正社員) 2020/03~2020/12
 
