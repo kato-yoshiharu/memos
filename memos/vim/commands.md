@@ -184,6 +184,9 @@ harpoonなどのプラグインを使う。
 - [ ] `:cfirst` / `:clast`: quickfixの最初 / 最後の項目に移動する
 - [ ] `:cc <n>`: quickfixのn番目に移動する
 - [ ] `:cdo` / `:cfdo`: quickfixに出た項目 / ファイルごとにコマンドを実行する
+- [ ] `:lopen`: location list(ウィンドウごとのquickfix)を開く
+- [ ] `:lne`: location listの次の項目に移動する
+
 ## 折りたたみ
 
 - [ ] `zf<motion>`: 範囲を折りたたみとして作る
