@@ -29,6 +29,7 @@
 - API Protocol
   - REST/GraphQL
 - 開発環境
+  - WezTerm/Herdr/Neovim/AeroSpace/Vicinae
 - AI Coding Agent
   - Claude Code/Codex
 
