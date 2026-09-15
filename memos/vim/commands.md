@@ -183,6 +183,7 @@ harpoonなどのプラグインを使う。
 - [ ] `:cn` / `:cp`: quickfixの次 / 前の項目に移動する
 - [ ] `:cfirst` / `:clast`: quickfixの最初 / 最後の項目に移動する
 - [ ] `:cc <n>`: quickfixのn番目に移動する
+- [ ] `:cdo` / `:cfdo`: quickfixに出た項目 / ファイルごとにコマンドを実行する
 ## 折りたたみ
 
 - [ ] `zf<motion>`: 範囲を折りたたみとして作る
