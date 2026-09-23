@@ -1,17 +1,23 @@
 # Claude Code x Codex
 
-Claude Codeの得意分野
+## 特徴
 
-- 設計
-- レビュー
+Claude Code (Anthropic)
 
-Codexの得意分野
+- 得意分野: 設計、レビュー
 
-- コード生成
+Codex (OpenAI)
+
+- サンドボックス実行・承認モード(auto/manual)などセキュリティ重視の設計
+- 得意分野: コード生成
+
+## 連携
+
+<https://zenn.dev/owayo/articles/63d325934ba0de>の通り、skillで呼び出す。
 
 ## TODO
 
-- [ ] <https://zenn.dev/owayo/articles/63d325934ba0de>
+- [x] <https://zenn.dev/owayo/articles/63d325934ba0de>
 - [ ] <https://x.com/vibeeeng/status/2070552197851410820>
 - [ ] <https://x.com/Hesamation/status/2031418875946958915>
 - [ ] <https://openai.com/ja-JP/index/harness-engineering/>
