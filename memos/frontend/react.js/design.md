@@ -1,13 +1,5 @@
 # Design
 
-- [Design](#design)
-  - [Overview](#overview)
-  - [Presentational and Container Components](#presentational-and-container-components)
-    - [Presentational Component](#presentational-component)
-    - [Container Component](#container-component)
-    - [参考](#参考)
-  - [Higher-Order Component, HOC, 高階コンポーネント](#higher-order-component-hoc-高階コンポーネント)
-
 ## Overview
 
 - APIのリクエストをどのコンポーネントで行うか

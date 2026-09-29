@@ -1,16 +1,5 @@
 # Git Commands
 
-- [Git Commands](#git-commands)
-  - [checkout](#checkout)
-    - [他のブランチのディレクトリで上書きする](#他のブランチのディレクトリで上書きする)
-    - [参考](#参考)
-  - [diff](#diff)
-    - [options](#options)
-  - [log](#log)
-    - [options](#options-1)
-      - [pretty=format](#prettyformat)
-  - [delete merged branches on remote(WIP)](#delete-merged-branches-on-remotewip)
-
 ## checkout
 
 ### 他のブランチのディレクトリで上書きする

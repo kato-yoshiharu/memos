@@ -1,24 +1,5 @@
 # HTTP(Hyper Text Transfer Protocol)
 
-- [HTTP(Hyper Text Transfer Protocol)](#httphyper-text-transfer-protocol)
-  - [リクエストとレスポンス](#リクエストとレスポンス)
-    - [リクエスト(Request)](#リクエストrequest)
-      - [リクエストライン(Request Line)](#リクエストラインrequest-line)
-        - [HTTPメソッド, HTTP Methods](#httpメソッド-http-methods)
-        - [HTTP](#http)
-      - [ヘッダー(Header)](#ヘッダーheader)
-        - [HTTP/2 擬似ヘッダー](#http2-擬似ヘッダー)
-      - [ボディ(Body)](#ボディbody)
-    - [レスポンス(Response)](#レスポンスresponse)
-      - [ステータスライン(Status Line)](#ステータスラインstatus-line)
-        - [HTTPステータスコード, HTTP Status Code](#httpステータスコード-http-status-code)
-      - [ヘッダー(Header)](#ヘッダーheader-1)
-        - [Content-Type](#content-type)
-        - [Content-Length](#content-length)
-        - [Date](#date)
-        - [Set-cookie](#set-cookie)
-      - [ボディ(Body)](#ボディbody-1)
-
 ハイパーテキスト(ハイパーリンク同士で結び付けられたテキスト)を伝送するための通信規格。
 WebブラウザとWebサーバ間は、HTTPというプロトコルを使って通信している。
 

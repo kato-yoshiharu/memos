@@ -1,13 +1,5 @@
 # Testing Library
 
-- [Testing Library](#testing-library)
-  - [実行フェーズ](#実行フェーズ)
-    - [要素の取得方法](#要素の取得方法)
-      - [Priority](#priority)
-    - [fireEvent vs userEvent](#fireevent-vs-userevent)
-  - [検証フェーズ](#検証フェーズ)
-    - [テキストが表示されたことを検証する](#テキストが表示されたことを検証する)
-
 ## 実行フェーズ
 
 ### 要素の取得方法

@@ -1,9 +1,5 @@
 # GraphQL Code Generator
 
-- [GraphQL Code Generator](#graphql-code-generator)
-  - [Getting Started](#getting-started)
-  - [生成されるファイルにコードを追加するプラグイン](#生成されるファイルにコードを追加するプラグイン)
-
 ## Getting Started
 
 <https://github.com/dotansimha/graphql-code-generator#quick-start>

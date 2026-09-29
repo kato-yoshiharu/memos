@@ -1,5 +1,0 @@
-# Setup
-
-## Linter, Formatter
-
-- Ruff

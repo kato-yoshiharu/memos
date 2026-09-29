@@ -1,5 +1,0 @@
-# Mermaid
-
-## flowchart
-
-## sequenceDiagram

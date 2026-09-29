@@ -1,7 +1,1 @@
 # Webpack
-
-## options
-
-### mode
-
-### module

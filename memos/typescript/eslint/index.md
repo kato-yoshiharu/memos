@@ -1,14 +1,5 @@
 # ESLint
 
-- [ESLint](#eslint)
-  - [Overview](#overview)
-  - [Setup](#setup)
-  - [Configuring](#configuring)
-    - [ignoring](#ignoring)
-      - [default ignoring](#default-ignoring)
-  - [migrate to flat config](#migrate-to-flat-config)
-    - [手順](#手順)
-
 ## Overview
 
 ESLint本体以外のエコシステムのパッケージは主に3つ

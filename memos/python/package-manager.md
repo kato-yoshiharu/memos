@@ -1,3 +1,0 @@
-# Package Manager
-
-## pipenv
