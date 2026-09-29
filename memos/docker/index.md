@@ -1,14 +1,5 @@
 # Docker
 
-- [Docker](#docker)
-  - [exec](#exec)
-  - [Stop all containers](#stop-all-containers)
-  - [Delete all images](#delete-all-images)
-  - [Delete all volumes](#delete-all-volumes)
-  - [image push](#image-push)
-  - [Troubleshooting](#troubleshooting)
-    - [com.docker.backend cannot start](#comdockerbackend-cannot-start)
-
 Dockerには以下の4つのリソースがある。
 
 - Image
@@ -41,6 +32,12 @@ docker image prune -a -f
 
 ```sh
 docker volume rm $(docker volume ls -q)
+```
+
+## Delete all unused resources
+
+```sh
+docker system prune -a
 ```
 
 ## image push

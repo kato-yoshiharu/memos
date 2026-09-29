@@ -7,11 +7,11 @@
 Claude Codeにおけるハーネスの構成要素
 
 - CLAUDE.md
-  - memos/coding-agent/claude-code/memory.md を参照
+  - memos/coding-agent/memory.md を参照
 - Rules
-  - memos/coding-agent/claude-code/memory.md を参照
+  - memos/coding-agent/memory.md を参照
 - Skills
-  - memos/coding-agent/claude-code/skills.md
+  - memos/coding-agent/skills.md
 - Agents
 - Settings
 - Hooks

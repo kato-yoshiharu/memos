@@ -18,3 +18,7 @@
 - クリーンアーキテクチャ
 - エラーハンドリング
   - <https://qiita.com/tatsuya582/items/e5c56a2f7b976cfc17ea>
+
+## References
+
+- <https://eh-career.com/engineerhub/entry/2022/09/12/093000>

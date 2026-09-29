@@ -1,8 +1,5 @@
 # Compiler
 
-- [Compiler](#compiler)
-  - [TODO](#todo)
-
 ## TODO
 
 - <https://www.sigbus.info/compilerbook>
