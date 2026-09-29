@@ -1,11 +1,5 @@
 # volta
 
-- [volta](#volta)
-  - [command not found](#command-not-found)
-  - [Install and use particular version](#install-and-use-particular-version)
-  - [Delete package](#delete-package)
-  - [Pin](#pin)
-
 ## command not found
 
 ```shell

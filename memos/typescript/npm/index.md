@@ -1,14 +1,5 @@
 # npm
 
-- [npm](#npm)
-  - [Install](#install)
-  - [Login](#login)
-  - [Publishing scoped public packages](#publishing-scoped-public-packages)
-  - [README](#readme)
-  - [Update all packages](#update-all-packages)
-    - [Installation](#installation)
-    - [Usage](#usage)
-
 ## Install
 
 | name         | description          |

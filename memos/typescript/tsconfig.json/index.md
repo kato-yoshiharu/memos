@@ -1,17 +1,5 @@
 # tsconfig.json
 
-- [tsconfig.json](#tsconfigjson)
-  - [Init](#init)
-  - [Options](#options)
-    - [target](#target)
-    - [lib](#lib)
-    - [module](#module)
-      - [for Node.js](#for-nodejs)
-      - [for frontend](#for-frontend)
-    - [moduleResolution](#moduleresolution)
-  - [Use absolute path](#use-absolute-path)
-    - [When using `ts-node`](#when-using-ts-node)
-
 ## Init
 
 ```shell

@@ -1,18 +1,5 @@
 # Event
 
-- [Event](#event)
-  - [MouseEvent](#mouseevent)
-    - [MouseDown](#mousedown)
-    - [MouseUp](#mouseup)
-    - [MouseOver](#mouseover)
-    - [MouseOut](#mouseout)
-    - [MouseEnter](#mouseenter)
-    - [MouseLeave](#mouseleave)
-    - [MouseMove](#mousemove)
-  - [window.addEventListenerとdocument.addEventListenerの違い](#windowaddeventlistenerとdocumentaddeventlistenerの違い)
-    - [window.addEventListener](#windowaddeventlistener)
-    - [document.addEventListener](#documentaddeventlistener)
-
 ## MouseEvent
 
 cursorの座標位置を取得するには、event.clientX, event.clientYを使う。
