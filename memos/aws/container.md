@@ -1,17 +1,5 @@
 # Container
 
-- [Container](#container)
-  - [Flow](#flow)
-    - [Network](#network)
-  - [AWSリソース](#awsリソース)
-    - [ECS](#ecs)
-    - [Fargate](#fargate)
-    - [ECS on Fargate](#ecs-on-fargate)
-      - [手順](#手順)
-  - [デプロイ方法](#デプロイ方法)
-    - [Blue/Greenデプロイメント](#bluegreenデプロイメント)
-  - [Reference](#reference)
-
 ## Flow
 
 1. Network

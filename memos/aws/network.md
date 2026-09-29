@@ -1,17 +1,5 @@
 # Network
 
-- [Network](#network)
-  - [リージョン(region)](#リージョンregion)
-  - [アベイラビリティゾーン(Availability Zone, AZ)](#アベイラビリティゾーンavailability-zone-az)
-  - [VPC](#vpc)
-  - [Subnets](#subnets)
-  - [Internet Gateway](#internet-gateway)
-  - [Route Tables](#route-tables)
-    - [default gatewayの設定](#default-gatewayの設定)
-  - [VPC Endpoint](#vpc-endpoint)
-    - [serviceName(required)](#servicenamerequired)
-  - [Elastic IP](#elastic-ip)
-
 ## リージョン(region)
 
 ## アベイラビリティゾーン(Availability Zone, AZ)

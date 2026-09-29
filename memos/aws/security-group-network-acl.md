@@ -14,13 +14,3 @@
 
 トラフィックは、インバウンド・アウトバウンドのそれぞれに対して、ポート単位で許可と許否を設定する。
 デフォルトでは、セキュリティグループはインバウンドを許否、アウトバウンドを許可している。ネットワークACLは両方許可している。
-
-## CloudFormation
-
-### groupDescription
-
-required.
-
-### securityGroupIngress
-
-### securityGroupEgress

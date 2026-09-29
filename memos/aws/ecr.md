@@ -1,12 +1,5 @@
 # ECR
 
-- [ECR](#ecr)
-  - [Overview](#overview)
-  - [手順](#手順)
-  - [レジストリに登録](#レジストリに登録)
-  - [dockerコマンドでECRにpushするためにaws-cliでログインする方法](#dockerコマンドでecrにpushするためにaws-cliでログインする方法)
-  - [MEMO](#memo)
-
 ## Overview
 
 The encryption settings cannot be changed or disabled after the repository is created.

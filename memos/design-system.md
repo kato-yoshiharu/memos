@@ -1,1 +1,0 @@
-# デザインシステム Design System
