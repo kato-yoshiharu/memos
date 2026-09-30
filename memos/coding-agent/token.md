@@ -34,3 +34,23 @@ LLM がテキストを処理する最小単位。単語そのものではなく�
 - 必要なファイルだけ読む（大きなファイルは範囲指定で部分読み込み）
 - CLAUDE.md を簡潔に保つ（毎ターン読み込まれるので肥大化に注意）
 - 長い実行結果を避ける（grep やフィルタで絞り込む）
+
+## 使用量を確認する
+
+- Claude Code の statusline: stdin の JSON に使用量が入る
+  - `rate_limits.five_hour` / `rate_limits.seven_day` に入る
+    - `used_percentage`: 0〜100
+    - `resets_at`: Unix 秒
+  - Pro / Max 契約者向けで、セッション最初の API 応答後に入る
+  - `context_window.used_percentage` はコンテキストの使用率
+- Codex の status_line: 組み込み項目を並べる
+  - `five-hour-limit` / `weekly-limit` / `context-used` / `used-tokens` など
+
+### ccusage
+
+ローカルの会話ログからトークン数を集計する CLI。
+
+### 参考
+
+- Claude Code statusline: <https://code.claude.com/docs/en/statusline>
+- ccusage: <https://github.com/ryoppippi/ccusage>
