@@ -69,6 +69,11 @@ xxx
 
 批判的にレビューさせるサブエージェント Devil's Advocate を作成し、レビューさせている。
 
+### Devil's Advocate（反対意見役）でセルフレビューする
+
+- [ ] <https://zenn.dev/correlate_dev/articles/devils-advocate-ai-team>
+- [ ] <https://github.com/alirezarezvani/claude-skills/blob/main/c-level-advisor/executive-mentor/agents/devils-advocate.md>
+
 <!-- TODO: AIレビューskill -->
 
 脆弱性
