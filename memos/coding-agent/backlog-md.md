@@ -13,6 +13,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
 ## 参考
 
 - <https://github.com/MrLesk/Backlog.md>
+- <https://github.com/MrLesk/Backlog.md/blob/main/ADVANCED-CONFIG.md>
 
 ## TODO
 
