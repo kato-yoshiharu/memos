@@ -8,6 +8,8 @@ Markdownファイルだけで完結する。
 
 issueをgithub issueではなくgit管理したい場合に便利そう。
 
+## 機能
+
 ## 参考
 
 - <https://github.com/MrLesk/Backlog.md>
