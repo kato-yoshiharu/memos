@@ -10,6 +10,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
 
 ## 機能
 
+- Kanbanをターミナル（`backlog board`）とWeb UI（`backlog browser`、ドラッグ&ドロップ対応）で表示できる
 ## 参考
 
 - <https://github.com/MrLesk/Backlog.md>
