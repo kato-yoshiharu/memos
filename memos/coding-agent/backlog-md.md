@@ -13,6 +13,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
 - Kanbanをターミナル（`backlog board`）とWeb UI（`backlog browser`、ドラッグ&ドロップ対応）で表示できる
 ## AI連携
 
+Claude Code、Codex、Gemini CLI、Kiro、Cursor などに対応する。
 ## 参考
 
 - <https://github.com/MrLesk/Backlog.md>
