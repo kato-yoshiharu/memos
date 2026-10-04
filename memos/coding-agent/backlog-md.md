@@ -15,6 +15,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
 - Definition of Done: どのタスクでも毎回確認する完了チェックリスト
   - 設定ファイルの `definition_of_done` に書くと、新しく作るタスクすべてに自動で付く
   - 特定のタスクだけに足すときは `--dod "項目"` を使う
+- マイルストーン
 ## AI連携
 
 Claude Code、Codex、Gemini CLI、Kiro、Cursor などに対応する。
