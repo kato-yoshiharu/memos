@@ -16,6 +16,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
   - 設定ファイルの `definition_of_done` に書くと、新しく作るタスクすべてに自動で付く
   - 特定のタスクだけに足すときは `--dod "項目"` を使う
 - マイルストーン
+- 依存関係
 - `backlog search` で、タスク・ドキュメント（`backlog/docs/`）・decision（`backlog/decisions/`）をあいまい検索できる
   - decision は、タスクとは別に管理する決定の記録。`backlog decision create <title>` で作る
 - `--no-git` でGitなしでも使える
