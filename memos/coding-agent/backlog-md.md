@@ -18,6 +18,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
 - マイルストーン
 - 依存関係
   - 依存先を持つタスクの詳細には `Depends on` が出る
+  - 依存先になっているタスクの詳細には `Dependents` が出る
   - 設定は `--dep <タスクID>`
 - `backlog search` で、タスク・ドキュメント（`backlog/docs/`）・decision（`backlog/decisions/`）をあいまい検索できる
   - decision は、タスクとは別に管理する決定の記録。`backlog decision create <title>` で作る
