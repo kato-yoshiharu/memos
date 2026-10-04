@@ -17,6 +17,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
   - 特定のタスクだけに足すときは `--dod "項目"` を使う
 - マイルストーン
 - `--no-git` でGitなしでも使える
+
 ## AI連携
 
 Claude Code、Codex、Gemini CLI、Kiro、Cursor などに対応する。
