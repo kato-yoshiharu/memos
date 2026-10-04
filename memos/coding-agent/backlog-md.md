@@ -13,6 +13,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
 - Kanbanをターミナル（`backlog board`）とWeb UI（`backlog browser`、ドラッグ&ドロップ対応）で表示できる
 - 受け入れ基準（AC）
 - Definition of Done: どのタスクでも毎回確認する完了チェックリスト
+  - 特定のタスクだけに足すときは `--dod "項目"` を使う
 ## AI連携
 
 Claude Code、Codex、Gemini CLI、Kiro、Cursor などに対応する。
