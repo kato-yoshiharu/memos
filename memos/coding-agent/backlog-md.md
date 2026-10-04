@@ -24,6 +24,7 @@ issueをgithub issueではなくgit管理したい場合に便利そう。
 
 Claude Code、Codex、Gemini CLI、Kiro、Cursor などに対応する。
 `backlog init` のウィザードで接続方法を選ぶ。
+
 ## 参考
 
 - <https://github.com/MrLesk/Backlog.md>
