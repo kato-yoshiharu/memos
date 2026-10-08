@@ -30,3 +30,4 @@
 ## TODO
 
 - git worktreeとclaude codeのworktreeの違い
+- skillsとの違い

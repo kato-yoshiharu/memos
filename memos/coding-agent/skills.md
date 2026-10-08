@@ -4,18 +4,18 @@ skillsとは `/コマンド名` で呼び出せるワークフロー定義
 
 ## スキル一覧
 
-配布元:
-gstack = <https://github.com/garrytan/gstack>
-ECC = <https://github.com/affaan-m/ECC>
-uupm = <https://github.com/nextlevelbuilder/ui-ux-pro-max-skill>
-shot-annotate = <https://github.com/commte/shot-annotate>
-mattpocock = <https://github.com/mattpocock/skills>
+### 説明
+
+- `eli5`（[claude-plugins-community](https://github.com/anthropics/claude-plugins-community/tree/main/eli5)）
+- `archify`（[tt-a1i/archify](https://github.com/tt-a1i/archify)）
+- `explainer`（[mizchi/explainer](https://github.com/mizchi/explainer)）
+
+参考: <https://blog.lai.so/eli5-archify-explainer-skills/>
 
 ### レビュー・品質
 
 - `/code-review`（組み込み）
   — 現在の差分・PR・ブランチをレビューする。
-    effort（low〜max, ultra）を指定でき、`--comment` でPRにインラインコメント、`--fix` で修正を適用
 - `/security-review`（組み込み）
   — 現在のブランチの変更に対してセキュリティレビューを行う
 - `/simplify`（組み込み）
@@ -27,13 +27,8 @@ mattpocock = <https://github.com/mattpocock/skills>
 
 ### 設計・計画
 
-- `grilling`（mattpocock）
-  — 実装前に、計画・設計の未決定事項や隠れた前提を1問ずつ問い詰めて洗い出す。
-    文脈に合えば自動で発動する
-
-### デザイン
-
-- `ui-ux-pro-max`（uupm）
+- grill-skills(`grill-with-docs`, `grill-me`)
+  [grilling / grill-me / grill-with-docs の違い](grill-skills.md)
 
 ### テスト・デバッグ
 
@@ -73,11 +68,6 @@ mattpocock = <https://github.com/mattpocock/skills>
   — Claude API / SDK のリファレンス（モデル ID・料金など）を参照する
 - `deep-research`（ECC）
 - `article-writing`（ECC）
-
-### チーム・プロダクト
-
-- `/retro`（gstack）
-  — コミット履歴から週次振り返りをコントリビューター別に生成する
 
 ## スキルを作成する
 

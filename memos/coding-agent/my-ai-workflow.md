@@ -1,9 +1,15 @@
 # My AI Workflow
 
-開発工程ごとに、Coding Agentをどう使い分けているかのメモ。
-AIに実装を任せ、人間は意思決定とレビューを担う。
+開発工程ごとに、Coding Agentをどのように利用して開発を行うかのメモ。
+基本方針としては、AIにまずやらせて、人間はそれに対しての意思決定と妥当性の評価を行う。
 
-## Issue作成・ドキュメント作成・要件整理
+## 要件整理
+
+<!-- TODO -->
+
+## Issue作成
+
+<!-- TODO -->
 
 ```text
 /grill-with-docs
@@ -20,17 +26,16 @@ xxx
 <!-- TODO: <https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai> -->
 <!-- の記事に実装計画のテンプレートがあるので、実際に実装計画を作成する際に参考にしようと思う -->
 
-- 別セッションのAIが単体で実装できる内容にする
+grill-with-docs skillを使ってIssueを作成しています。
+Issueをもとに実装計画を作成し、サブエージェントによるレビュー・改善のループを回したあと、人間が確認します。
+実装計画をもとに、新しいセッションで実装し、実装後も同様にサブエージェントによるレビュー・改善ループを回しています。
 
-## コンテキスト設計
-
-### ADR
-
-[ADR駆動開発](./adr-driven-development.md)
+ゴールは、別セッションのAIが単体で実装できる内容にすること。
 
 ## 調査
 
-<!-- TODO -->
+技術選定などの調査には、deep-researchのSkillを使っています。
+セキュリティや実装コストなどの比較の観点を指定し、信頼できるソースを明記させます。
 
 ## 図解・図で説明する
 
@@ -74,6 +79,11 @@ xxx
 - [ ] <https://zenn.dev/correlate_dev/articles/devils-advocate-ai-team>
 - [ ] <https://github.com/alirezarezvani/claude-skills/blob/main/c-level-advisor/executive-mentor/agents/devils-advocate.md>
 
+### TODO
+
+- [ ] <https://zenn.dev/kauche/articles/e051583461c181>
+- [ ] <https://ai.acsim.app/articles/introducing-self-merge-policy>
+
 <!-- TODO: AIレビューskill -->
 
 脆弱性
@@ -103,3 +113,9 @@ git worktreeで作業ツリーを複数用意し、AI Coding Agentを並列で�
 ## 参考
 
 - [AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）](https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai)
+- [俺のAIプログラミング手法(2026/10/05)](https://zenn.dev/mizchi/articles/ai-coding-loop-formal)
+
+## TODO
+
+- AIのワークフローのベンチマークの計測
+- adr-driven-development.md
