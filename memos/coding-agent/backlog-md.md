@@ -11,6 +11,7 @@ Markdownファイルだけで完結するので、IssueをGitHub Issueではな�
 - Kanban
   ターミナル（`backlog board`）とWeb UI（`backlog browser`、ドラッグ&ドロップ対応）で表示できる
 - 受け入れ基準（AC）
+  - タスクには `- [ ] #1 ...` の形式で書き出され、連番 `#N` は `--check-ac N` で項目を指定するのに使う。番号だけ消す設定はない
 - Definition of Done: どのタスクでも毎回確認する完了チェックリスト
   - 設定ファイルの `definition_of_done` に書くと、新しく作るタスクすべてに自動で付く
   - 特定のタスクだけに足すときは `--dod "項目"` を使う
@@ -21,6 +22,7 @@ Markdownファイルだけで完結するので、IssueをGitHub Issueではな�
 - 検索
   - `backlog search` で、タスク・ドキュメント（`backlog/docs/`）・decision（`backlog/decisions/`）をあいまい検索できる
     - decision は、タスクとは別に管理する決定の記録。`backlog decision create <title>` で作る
+    - 保存先だけを `docs/adr/` に変える設定はない（`backlog_directory` は `backlog/` 全体の名前を変えるだけ）
 - AI連携
 
 ## 使い方
