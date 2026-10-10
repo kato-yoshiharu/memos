@@ -38,6 +38,17 @@
 
 LSPが使えない場面での代替手段。
 
+## LSP
+
+LSPサーバがattachしているバッファで使える。
+
+- [ ] `gd`: 定義にジャンプする(go to definition)
+- [ ] `grr`: 参照の一覧を出す(`gd`の反対。go references)
+- [ ] `gri`: 実装にジャンプする(go implementation)
+- [ ] `grt`: 型定義にジャンプする(go type definition)
+- [ ] `grn`: シンボルをリネームする(name)
+- [ ] `gra`: code actionを実行する(action)
+
 ## マーク
 
 harpoonなどのプラグインを使う。
