@@ -4,6 +4,17 @@ skillsとは `/コマンド名` で呼び出せるワークフロー定義
 
 ## スキル一覧
 
+### 調査
+
+- `deep-research`（ECC）
+- `find-skills`
+  — スキルを探して導入する
+
+### ドキュメント
+
+- `natural-japanese`
+- `yomiyasu`
+
 ### 説明
 
 - `eli5`（[claude-plugins-community](https://github.com/anthropics/claude-plugins-community/tree/main/eli5)）
@@ -22,13 +33,15 @@ skillsとは `/コマンド名` で呼び出せるワークフロー定義
   — 変更箇所の再利用・簡略化・効率化の観点で修正まで行う（バグ探しはしない）
 - `/plan-eng-review`（gstack）
   — EM 目線でアーキテクチャ・障害モード・システム設計をレビューする
-- `shot-annotate`（shot-annotate）
-  — スクリーンショットに赤枠・矢印・線・楕円・テキストラベルで注釈を付ける。
+- `vercel-react-best-practices`
+  — React / Next.js の性能指針
 
 ### 設計・計画
 
 - grill-skills(`grill-with-docs`, `grill-me`)
   [grilling / grill-me / grill-with-docs の違い](grill-skills.md)
+- `domain-modeling`
+  — ドメインモデル、GLOSSARY.md、ADR を整える
 
 ### テスト・デバッグ
 
@@ -38,8 +51,8 @@ skillsとは `/コマンド名` で呼び出せるワークフロー定義
 
 ### リリース・デプロイ
 
-- `/ship`（gstack）
-- `/land-and-deploy`（gstack）
+- [ ] `/ship`（gstack）
+- [ ] `/land-and-deploy`（gstack）
 
 ### 自動実行・並列化
 
@@ -47,27 +60,40 @@ skillsとは `/コマンド名` で呼び出せるワークフロー定義
 - `/schedule`（組み込み）
 - `/batch`
 
-### 設定・環境
+### ハーネスエンジニアリング
 
 - `/init`（組み込み）
 - `/update-config`（組み込み）
   — settings.json の permissions / env / hooks を設定する
 - `/fewer-permission-prompts`（組み込み）
   — 権限確認ダイアログが出る頻度を減らす
+- `harness-creator`
+  — AGENTS.md・検証ゲート・セッション引き継ぎなど、エージェントを安定させる枠組みを作り、監査・改善する
+- `claude-automation-recommender`
+  — コードベースを分析し、Claude Code の自動化（hooks・サブエージェント・スキル・プラグイン・MCP サーバー）を推奨する
+- `/doctor`（組み込み）
+  — セットアップ全体を診断し、確認後に修正する。
+  - [/doctor の詳細](doctor.md)
 
 ### コンテキスト・コスト最適化
 
 - `context-budget`（ECC）
 - `cost-aware-llm-pipeline`（ECC）
 - `agentic-engineering`（ECC）
+  — 評価先行・タスク分解・コストを考慮したモデルの振り分けで、エージェントに作業を進めさせる
 - `agent-eval`（ECC）
+  — コーディングエージェントの比較評価
+- `eval-harness`（ECC）
+  — 評価駆動開発の枠組み
+- `context-engineering`
+  — エージェントのコンテキスト設計
 
-### ドキュメント・調査・執筆
+### その他
 
-- `/claude-api`（組み込み）
-  — Claude API / SDK のリファレンス（モデル ID・料金など）を参照する
-- `deep-research`（ECC）
-- `article-writing`（ECC）
+- `shot-annotate`（shot-annotate）
+  — スクリーンショットに赤枠・矢印・線・楕円・テキストラベルで注釈を付ける。
+- `i-have-adhd`
+  — ADHD 向けの応答スタイル
 
 ## スキルを作成する
 

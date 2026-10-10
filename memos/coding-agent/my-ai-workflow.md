@@ -3,13 +3,19 @@
 開発工程ごとに、Coding Agentをどのように利用して開発を行うかのメモ。
 基本方針としては、AIにまずやらせて、人間はそれに対しての意思決定と妥当性の評価を行う。
 
-## 要件整理
+人間の役割:
 
-<!-- TODO -->
+- 意思決定
+- 開発のワークフローの整備と評価
+- 最終的なコードのレビューとそれに対しての責任を持つこと
 
-## Issue作成
+## 要件整理・Issue作成
 
-<!-- TODO -->
+grill-with-docs skillを使ってIssueを作成する。
+ゴールは、別セッションのAIが単体で実装できる内容にすること。
+
+skillは以下のプロンプトで呼び出す。
+<!-- MEMO: 以下のプロンプトで呼び出すskillを作ってもよさそう -->
 
 ```text
 /grill-with-docs
@@ -26,11 +32,8 @@ xxx
 <!-- TODO: <https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai> -->
 <!-- の記事に実装計画のテンプレートがあるので、実際に実装計画を作成する際に参考にしようと思う -->
 
-grill-with-docs skillを使ってIssueを作成しています。
 Issueをもとに実装計画を作成し、サブエージェントによるレビュー・改善のループを回したあと、人間が確認します。
 実装計画をもとに、新しいセッションで実装し、実装後も同様にサブエージェントによるレビュー・改善ループを回しています。
-
-ゴールは、別セッションのAIが単体で実装できる内容にすること。
 
 ## 調査
 
@@ -40,9 +43,12 @@ Issueをもとに実装計画を作成し、サブエージェントによるレ
 ## 図解・図で説明する
 
 <!-- TODO: explain-visually skillを使ってみる -->
-<!-- TODO: eli5 https://eiji.page/blog/ai-skill-eli5-is-great/ -->
 
-<!-- TODO -->
+以下のskillを使っている
+
+- eli5
+- archify
+- explainer
 
 ゴールは`自分の言葉で説明できるようにする`
 
